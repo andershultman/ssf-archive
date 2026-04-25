@@ -512,20 +512,16 @@ mark {
   </div>
 </header>
 
-<!-- NAV — exact SSF teal bar, uppercase Source Sans Pro, 1px letter-spacing -->
+<!-- NAV — simplified: just back-link to main site -->
 <nav class="site-nav">
   <ul>
-    <li><a href="https://scenariofestival.se">Home</a></li>
-    <li class="nav-dot">·</li>
-    <li><a href="https://scenariofestival.se/writing-a-scenario/">Writing for SSF</a></li>
-    <li class="nav-dot">·</li>
-    <li><a href="https://scenariofestival.se/practical/">Info</a></li>
+    <li><a href="https://scenariofestival.se/archive/">← Back to scenariofestival.se</a></li>
     <li class="nav-dot">·</li>
     <li><a href="https://scenariofestival.se/what-is-this/">FAQ</a></li>
     <li class="nav-dot">·</li>
-    <li><a href="https://scenariofestival.se/vision/">Vision</a></li>
+    <li><a href="https://scenariofestival.se/practical/">Info</a></li>
     <li class="nav-dot">·</li>
-    <li><a href="https://scenariofestival.se/archive/" class="active">Archive</a></li>
+    <li><a href="https://www.facebook.com/StockholmScenarioFestival/" target="_blank" rel="noopener">Facebook</a></li>
   </ul>
 </nav>
 
@@ -652,7 +648,7 @@ function render(scenarios,q){
     ].filter(Boolean).join('');
     const dl=s.download?`<span class="dl-btn">${ID} Download</span>`:'';
     a.innerHTML=`
-      <div class="card-img-wrap">${imgInner}<span class="year-badge">${s.year}</span></div>
+      <div class="card-img-wrap">${imgInner}<span class="year-badge">${(s.years && s.years.length > 1) ? s.years.join(" · ") : s.year}</span></div>
       <div class="card-body">
         <div class="card-title">${hl(s.title,q)}</div>
         ${s.authors?`<div class="card-authors">${hl(s.authors,q)}</div>`:''}
