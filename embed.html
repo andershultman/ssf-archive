@@ -19,21 +19,21 @@
   --white:     #fff;
 }
 
-/* Transparent background — inherits the WordPress page */
+
 html, body {
-  background: transparent;
+  background: #fff;
   font-family: 'Source Sans 3', 'Source Sans Pro', Helvetica, sans-serif;
   color: var(--text);
   font-size: 15px;
   line-height: 1.6;
-  /* No scroll on the iframe body itself — parent page scrolls */
-  overflow: hidden;
+
+  overflow-y: auto; overflow-x: hidden;
 }
 
 /* No padding on the outermost wrapper */
 .embed-wrap {
   width: 100%;
-  background: transparent;
+  background: #fff;
 }
 
 /* ── CONTROLS ────────────────────────────────────────────────── */
@@ -146,7 +146,7 @@ select:hover, select:focus { border-color: var(--teal); }
   background: #fff;
   border: 1px solid var(--border);
   border-radius: 4px;
-  overflow: hidden;
+  overflow-y: auto; overflow-x: hidden;
   text-decoration: none;
   color: inherit;
   display: flex;
@@ -161,7 +161,7 @@ select:hover, select:focus { border-color: var(--teal); }
 .card-img-wrap {
   width: 100%;
   aspect-ratio: 1 / 1;
-  overflow: hidden;
+  overflow-y: auto; overflow-x: hidden;
   position: relative;
   flex-shrink: 0;
 }
@@ -208,7 +208,7 @@ select:hover, select:focus { border-color: var(--teal); }
   font-size: 0.8rem;
   color: var(--text2);
   white-space: nowrap;
-  overflow: hidden;
+  overflow-y: auto; overflow-x: hidden;
   text-overflow: ellipsis;
 }
 .tags {
@@ -240,7 +240,7 @@ select:hover, select:focus { border-color: var(--teal); }
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
-  overflow: hidden;
+  overflow-y: auto; overflow-x: hidden;
   flex: 1;
   margin-top: 0.2rem;
 }
@@ -421,8 +421,6 @@ function applyFilters() {
 
   document.getElementById('result-count').textContent = filtered.length;
   render(filtered, st.q);
-  // Tell parent iframe our new height so it can resize with no scrollbar
-  notifyHeight();
 }
 
 // ── RENDER ────────────────────────────────────────────────────────────────────
@@ -442,7 +440,6 @@ function render(scenarios, q) {
   grid.innerHTML = '';
   if (!scenarios.length) {
     grid.innerHTML = '<div class="no-results"><h3>No scenarios found</h3><p>Try different keywords or remove a filter.</p></div>';
-    notifyHeight();
     return;
   }
   scenarios.forEach(s => {
@@ -479,21 +476,10 @@ function render(scenarios, q) {
       </div>`;
     grid.appendChild(a);
   });
-  // After images load, re-notify height
-  setTimeout(notifyHeight, 300);
+
 }
 
-// ── IFRAME HEIGHT REPORTING ───────────────────────────────────────────────────
-// Sends the page's full rendered height to the parent window so the iframe
-// can be resized automatically — no double scrollbar, no fixed height needed.
-function notifyHeight() {
-  const h = document.getElementById('embed-wrap').scrollHeight;
-  if (window.parent !== window) {
-    window.parent.postMessage({ type: 'ssf-archive-height', height: h }, '*');
-  }
-}
-// Also report on window resize
-window.addEventListener('resize', () => setTimeout(notifyHeight, 100));
+
 
 // ── INTERACTIONS ──────────────────────────────────────────────────────────────
 function filterTag(e, tag) {
@@ -501,10 +487,7 @@ function filterTag(e, tag) {
   e.stopPropagation();
   document.getElementById('search').value = tag;
   applyFilters();
-  // Tell parent to scroll to top of iframe
-  if (window.parent !== window) {
-    window.parent.postMessage({ type: 'ssf-archive-scroll-top' }, '*');
-  }
+  window.scrollTo({top: 0, behavior: "smooth"});
 }
 
 function clearAll() {
