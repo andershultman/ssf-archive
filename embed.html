@@ -421,6 +421,7 @@ function applyFilters() {
 
   document.getElementById('result-count').textContent = filtered.length;
   render(filtered, st.q);
+  setTimeout(notifyHeight, 400);
 }
 
 // ── RENDER ────────────────────────────────────────────────────────────────────
@@ -440,6 +441,7 @@ function render(scenarios, q) {
   grid.innerHTML = '';
   if (!scenarios.length) {
     grid.innerHTML = '<div class="no-results"><h3>No scenarios found</h3><p>Try different keywords or remove a filter.</p></div>';
+    setTimeout(notifyHeight, 100);
     return;
   }
   scenarios.forEach(s => {
@@ -504,6 +506,21 @@ function bindEvents() {
   ['filter-year','filter-duration','filter-players','filter-format','sort'].forEach(id =>
     document.getElementById(id).addEventListener('change', applyFilters));
 }
+
+
+// ── AUTO-RESIZE ───────────────────────────────────────────────────────────────
+// This runs inside embed.html on GitHub — WordPress never sees or strips it.
+// It tells the parent page the iframe's real height after every render,
+// so the iframe grows to fit with no scrollbar and no fixed height needed.
+function notifyHeight() {
+  const h = document.getElementById('embed-wrap').scrollHeight + 20;
+  try {
+    // postMessage works cross-origin — the parent page listens for this
+    window.parent.postMessage({ type: 'ssf-height', height: h }, '*');
+  } catch(e) {}
+}
+// Resize on window resize too
+window.addEventListener('resize', debounce(notifyHeight, 150));
 
 loadData();
 </script>
