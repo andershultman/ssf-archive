@@ -4,7 +4,11 @@
     "url": "https://scenariofestival.se/archive/scenarios-2025/10-more-unique/",
     "year": 2025,
     "authors": "Karolina Soltys and Patrik Bálint",
-    "tags": [],
+    "tags": [
+      "Tragicomedy",
+      "Individuality",
+      "Transformation"
+    ],
     "format": "Larp",
     "duration": "3 hours",
     "players": "6",
@@ -152,6 +156,7 @@
     "download": "https://stockholmscenariofestival.wordpress.com/wp-content/uploads/2025/10/meatballs_and_milk_eng.pdf",
     "image": "https://stockholmscenariofestival.wordpress.com/wp-content/uploads/2025/08/meatballs-and-milk-1-1.jpg",
     "years": [
+      2021,
       2025
     ]
   },
@@ -160,7 +165,11 @@
     "url": "https://scenariofestival.se/archive/scenarios-2025/memorial-to-our-other-selves/",
     "year": 2025,
     "authors": "Love Ersare with Amanda Gardfors Granberg as consultant",
-    "tags": [],
+    "tags": [
+      "Hypnotic",
+      "Emotion",
+      "Experiment"
+    ],
     "format": "Larp",
     "duration": "2 hours",
     "players": "4-30",
@@ -168,6 +177,7 @@
     "download": "",
     "image": "https://stockholmscenariofestival.wordpress.com/wp-content/uploads/2025/11/memorial-to-our-other-selves-love-ersare.png",
     "years": [
+      2021,
       2025
     ]
   },
@@ -176,7 +186,11 @@
     "url": "https://scenariofestival.se/archive/scenarios-2025/menials-of-production-2/",
     "year": 2025,
     "authors": "Jon Back",
-    "tags": [],
+    "tags": [
+      "Bureaucracy",
+      "Administration",
+      "Frustration"
+    ],
     "format": "Non verbal",
     "duration": "1 hour",
     "players": "15",
@@ -293,7 +307,11 @@
     "url": "https://scenariofestival.se/archive/scenarios-2025/still-cats/",
     "year": 2025,
     "authors": "Karolina Soltys",
-    "tags": [],
+    "tags": [
+      "cats",
+      "playful",
+      "cute"
+    ],
     "format": "Larp",
     "duration": "1-2 hours",
     "players": "",
@@ -301,6 +319,7 @@
     "download": "https://scenariofestival.se/wp-content/uploads/2025/11/still-cats-1.pdf",
     "image": "https://stockholmscenariofestival.wordpress.com/wp-content/uploads/2025/11/cats-1555979_960_720-karolina-soltys.jpg",
     "years": [
+      2021,
       2025
     ]
   },
@@ -449,7 +468,11 @@
     "url": "https://scenariofestival.se/archive/scenarios-2025/when-the-cosmos-speaks/",
     "year": 2025,
     "authors": "Felix Hemström Trolin",
-    "tags": [],
+    "tags": [
+      "First contact",
+      "Consequences",
+      "Unknown"
+    ],
     "format": "Larp",
     "duration": "1-2 hours",
     "players": "5-10",
@@ -457,6 +480,7 @@
     "download": "https://scenariofestival.se/wp-content/uploads/2025/11/complete-when-the-cosmos-speaks_-deliberations-at-norrvakten-eng-felix-hemstrom-trolin-1.pdf",
     "image": "https://stockholmscenariofestival.wordpress.com/wp-content/uploads/2025/11/bild-till-when-the-cosmos-speaks_-deliberations-at-norrvakten-felix-hemstrom-trolin.png",
     "years": [
+      2021,
       2025
     ]
   },
@@ -742,6 +766,7 @@
       2013,
       2017,
       2018,
+      2021,
       2024
     ]
   },
@@ -1046,7 +1071,11 @@
     "url": "https://scenariofestival.se/archive/scenarios-2023/hellevator/",
     "year": 2023,
     "authors": "Angelina von Holst & Sebastian Larsson",
-    "tags": [],
+    "tags": [
+      "Conflict",
+      "Workplace",
+      "Dramedy"
+    ],
     "format": "Larp",
     "duration": "1 hour",
     "players": "8-9",
@@ -1222,7 +1251,11 @@
     "url": "https://scenariofestival.se/archive/scenarios-2023/the-questgiver/",
     "year": 2023,
     "authors": "Sara Sheikhi",
-    "tags": [],
+    "tags": [
+      "Comedy",
+      "Meta",
+      "Gaming"
+    ],
     "format": "Larp",
     "duration": "1 hour",
     "players": "5-15",
@@ -1451,6 +1484,7 @@
     "download": "",
     "image": "https://scenariofestival.se/wp-content/uploads/2022/08/lovestories_by_abba.jpeg",
     "years": [
+      2016,
       2022
     ]
   },
@@ -1611,6 +1645,7 @@
     "download": "https://scenariofestival.se/wp-content/uploads/2022/11/the-vision.pdf",
     "image": "https://scenariofestival.se/wp-content/uploads/2022/08/the_vision.jpg",
     "years": [
+      2021,
       2022
     ]
   },
@@ -1631,6 +1666,7 @@
     "download": "https://scenariofestival.se/wp-content/uploads/2022/11/turings_question.pdf",
     "image": "https://scenariofestival.se/wp-content/uploads/2022/08/turings_question.jpg",
     "years": [
+      2021,
       2022
     ]
   },
@@ -1673,6 +1709,7 @@
     "image": "https://scenariofestival.se/wp-content/uploads/2022/08/you_were_always_on_my_mind.jpeg",
     "years": [
       2019,
+      2021,
       2022
     ]
   },
@@ -1694,6 +1731,333 @@
     "image": "https://scenariofestival.se/wp-content/uploads/2022/08/zar.png",
     "years": [
       2022
+    ]
+  },
+  {
+    "title": "A Rake's Progress",
+    "url": "https://scenariofestival.se/archive/scenarios-2021-2/a-rakes-progress/",
+    "year": 2021,
+    "years": [
+      2021
+    ],
+    "authors": "",
+    "tags": [
+      "Dance",
+      "Duels",
+      "Tragedy"
+    ],
+    "format": "",
+    "duration": "",
+    "players": "",
+    "description": "",
+    "download": "",
+    "image": ""
+  },
+  {
+    "title": "Aniara 2.0, A Space Trolley Problem",
+    "url": "https://scenariofestival.se/archive/scenarios-2021-2/aniara-2-0-a-space-trolley-problem/",
+    "year": 2021,
+    "years": [
+      2021
+    ],
+    "authors": "",
+    "tags": [
+      "Crisis",
+      "Moral Conundrum",
+      "Sci-Fi"
+    ],
+    "format": "",
+    "duration": "",
+    "players": "",
+    "description": "",
+    "download": "",
+    "image": ""
+  },
+  {
+    "title": "As Long As We Don't Tell Anyone",
+    "url": "https://scenariofestival.se/archive/scenarios-2021-2/as-long-as-we-dont-tell-anyone/",
+    "year": 2021,
+    "years": [
+      2021
+    ],
+    "authors": "",
+    "tags": [
+      "Unspoken",
+      "Relationships",
+      "Obstacles"
+    ],
+    "format": "",
+    "duration": "",
+    "players": "",
+    "description": "",
+    "download": "",
+    "image": ""
+  },
+  {
+    "title": "Beautiful Dreamer",
+    "url": "https://scenariofestival.se/archive/scenarios-2019/beautiful-dreamer/",
+    "year": 2019,
+    "authors": "Niklas Disefalk",
+    "tags": [
+      "Mother/Daughter relationship",
+      "Growing up",
+      "Forgiveness"
+    ],
+    "format": "",
+    "duration": "2 hours",
+    "players": "2",
+    "description": "“Beautiful Dreamer” is a science fiction time travel story that takes place in the near future. But it is also a personal story. A young dying mother sacrifices everything in order to be able to see her daughter grow up. She manages to visit her daughter during a few key moments of her life. The visits are sometimes sad and sometimes beautiful. They are given a lifetime together, but their lives are torn apart. It is a lifetime chopped up in small, short moments. This scenario is about the relationship between a mother and a daughter. From the child's boundless love, to the teenage daughter's emotional liberation process and so on through life.",
+    "download": "https://scenariofestival.se/wp-content/uploads/2019/11/beautiful-dreamer-english.pdf",
+    "image": "https://scenariofestival.se/wp-content/uploads/2019/08/beautiful-dreamer-square.jpg",
+    "years": [
+      2019,
+      2021
+    ]
+  },
+  {
+    "title": "Changeling",
+    "url": "https://scenariofestival.se/archive/scenarios-2021-2/changeling/",
+    "year": 2021,
+    "years": [
+      2021
+    ],
+    "authors": "",
+    "tags": [
+      "Thriller",
+      "Supernatural",
+      "Sensuality"
+    ],
+    "format": "",
+    "duration": "",
+    "players": "",
+    "description": "",
+    "download": "",
+    "image": ""
+  },
+  {
+    "title": "Cyborg Gaia Allies",
+    "url": "https://scenariofestival.se/archive/scenarios-2021-2/cyborg-gaia-allies/",
+    "year": 2021,
+    "years": [
+      2021
+    ],
+    "authors": "",
+    "tags": [
+      "Collaborative",
+      "Worldbuilding",
+      "Transformative"
+    ],
+    "format": "",
+    "duration": "",
+    "players": "",
+    "description": "",
+    "download": "",
+    "image": ""
+  },
+  {
+    "title": "Democratize – the Chilean Example",
+    "url": "https://scenariofestival.se/archive/scenarios-2021-2/democratize-the-chilean-example/",
+    "year": 2021,
+    "years": [
+      2021
+    ],
+    "authors": "",
+    "tags": [
+      "Politics",
+      "Negotiations",
+      "Chile"
+    ],
+    "format": "",
+    "duration": "",
+    "players": "",
+    "description": "",
+    "download": "",
+    "image": ""
+  },
+  {
+    "title": "Down to the River",
+    "url": "https://scenariofestival.se/archive/scenarios-2021-2/down-to-the-river/",
+    "year": 2021,
+    "years": [
+      2021
+    ],
+    "authors": "",
+    "tags": [
+      "Friendship",
+      "Close-to-home",
+      "Storytelling"
+    ],
+    "format": "",
+    "duration": "",
+    "players": "",
+    "description": "",
+    "download": "",
+    "image": ""
+  },
+  {
+    "title": "Everything but the Whole Truth",
+    "url": "https://scenariofestival.se/archive/scenarios-2021-2/everything-but-the-whole-truth/",
+    "year": 2021,
+    "years": [
+      2021
+    ],
+    "authors": "",
+    "tags": [
+      "Subjectiveness",
+      "Co-storytelling",
+      "Card-driven"
+    ],
+    "format": "",
+    "duration": "",
+    "players": "",
+    "description": "",
+    "download": "",
+    "image": ""
+  },
+  {
+    "title": "Four Strangers",
+    "url": "https://scenariofestival.se/archive/scenarios-2021-2/four-strangers/",
+    "year": 2021,
+    "years": [
+      2021
+    ],
+    "authors": "",
+    "tags": [
+      "Conversations",
+      "Choices",
+      "Conflict"
+    ],
+    "format": "",
+    "duration": "",
+    "players": "",
+    "description": "",
+    "download": "",
+    "image": ""
+  },
+  {
+    "title": "Glamourous Night",
+    "url": "https://scenariofestival.se/archive/scenarios-2021-2/glamourous-night/",
+    "year": 2021,
+    "years": [
+      2021
+    ],
+    "authors": "",
+    "tags": [
+      "Mind control",
+      "Contact improvisation",
+      "Trauma recovery"
+    ],
+    "format": "",
+    "duration": "",
+    "players": "",
+    "description": "",
+    "download": "",
+    "image": ""
+  },
+  {
+    "title": "If I Could See Your Face Again",
+    "url": "https://scenariofestival.se/archive/scenarios-2021-2/if-i-could-see-your-face-again/",
+    "year": 2021,
+    "years": [
+      2021
+    ],
+    "authors": "",
+    "tags": [
+      "Family",
+      "Fear of Death",
+      "Hope"
+    ],
+    "format": "",
+    "duration": "",
+    "players": "",
+    "description": "",
+    "download": "",
+    "image": ""
+  },
+  {
+    "title": "Play the Cards",
+    "url": "https://scenariofestival.se/archive/scenarios-2017/play-the-cards/",
+    "year": 2017,
+    "authors": "Frida Sofie Jansen, Tyra Larsdatter Grasmo & Trine Lise Lindahl(no)",
+    "tags": [
+      "Teenagers",
+      "Hierarchy",
+      "Awkwardness"
+    ],
+    "format": "",
+    "duration": "2 hours",
+    "players": "20-32",
+    "description": "Play the Cards is a larp about being a teenager, about fitting in and about knowing your place in the hierarchy. You’re in high school; you know who you are, what your social position is and most importantly, who you want to be. This is your first real house party. No parents. It’s the important party where everyone shows up and anything might happen. We use a deck of cards to indicate high school’s unspoken, but oh-so-public popularity rating. The Hearts are the popular girls led by their queen. The cool guys are The Spades. The Clubs are the alternative people that are engaged in politics or culture. And lastly you have The Diamonds, the outsiders and nerds whom no one likes and who stick ",
+    "download": "https://www.dropbox.com/s/4tuhic71259z30h/Play%20the%20cards.zip?dl=0",
+    "image": "https://scenariofestival.se/wp-content/uploads/2017/06/poster-e1504972393681.jpg",
+    "years": [
+      2013,
+      2017,
+      2021
+    ]
+  },
+  {
+    "title": "The Black Pram",
+    "url": "https://scenariofestival.se/archive/scenarios-2015/the-black-pram/",
+    "year": 2015,
+    "authors": "Alex Uth",
+    "tags": [
+      "Supernatural",
+      "Player",
+      "driven - Intense"
+    ],
+    "format": "",
+    "duration": "4 hours",
+    "players": "4",
+    "description": "Suburbia, summer, now. A young couple became parents for the first time. Suddenly there was love, so fragile and so violent at the same time. Suddenly there was the smell of baby skin. The sensation of wispy hair in the dark. Small, grasping fingers. Greedy sounds. And then the siege began. The sounds. The creeping coldness. The fear. Lars and Helene are fighting for their baby's life. Every night a dark figure with a black pram waits outside their house. It waits for them to finally come out and give him what he wants. It waits for them to give up.",
+    "download": "https://www.dropbox.com/s/yvuvibc3kwjlxfb/The%20Black%20Pram.zip?dl=0",
+    "image": "",
+    "years": [
+      2015,
+      2021
+    ]
+  },
+  {
+    "title": "The Family",
+    "url": "https://scenariofestival.se/archive/scenarios-2013/the-family/",
+    "year": 2013,
+    "authors": "Max Møller",
+    "tags": [
+      "Family",
+      "Tragedy",
+      "Suicide"
+    ],
+    "format": "",
+    "duration": "4 hours",
+    "players": "4",
+    "description": "Steen wants to start over. Laura wants to keep the family together at any price. Thomas said goodbye a long time ago. Pia doesn't want to live any longer. Thomas tells himself he doesn't care. Pia won't admit that she is scared to be alone. Steen thought she knew their relationship was long since dead. Laura puts up with too much. The Family is the story of a family that falls apart. Would you destroy your family to be happy? Would you live an unhappy life for your family's sake?",
+    "download": "https://www.dropbox.com/s/1x7p1zopd39j9fz/The%20family.zip?dl=0",
+    "image": "",
+    "years": [
+      2013,
+      2021
+    ]
+  },
+  {
+    "title": "The Testimony",
+    "url": "https://scenariofestival.se/archive/scenarios-2018/the-testimony/",
+    "year": 2018,
+    "authors": "Susanne Gräslund & Anders Hultman (swe)",
+    "tags": [
+      "Truth",
+      "Antisemitism",
+      "Genocide"
+    ],
+    "format": "",
+    "duration": "2 hours",
+    "players": "4",
+    "description": "Deep inside we are all xenophobics, sorting people in us and them. This is a story about what happens when the thin polish of civilization bursts and people start turning on their neighbours. The Testimony is a feel bad scenario about the course of events in a small village in eastern Poland during the first years of WWII. In a war struck countryside, the Catholics turned against their neighbours, an almost equally large Jewish population, and burned them alive or killed them in other bestialic ways. Because more or less everyone who survived were involved in the killings or benefited from them the truth was denied for a very long time and was not unveiled until recently.",
+    "download": "https://scenariofestival.se/wp-content/uploads/2018/11/the-testimony.pdf",
+    "image": "https://scenariofestival.se/wp-content/uploads/2018/08/40455474_2099075943743098_4046960096029179904_n.png",
+    "years": [
+      2015,
+      2018,
+      2021
     ]
   },
   {
@@ -1732,26 +2096,6 @@
     "description": "In the very near future the tech company AI-S is here to help you access those helpful spirits on the other side and to enable you to maximise your spiritual well being via an AI-enhanced seance. Be your spiritual best with AI-S- What could possibly go wrong? \"ChrystalTech is here to help you access that benevolent guidance from The Other Side! We have a long experience in working with tech-aided spiritual guidance. If you need a little extra boost to kick start your psycic abilities and access the advice from you spiritual guides, our seance session will help you realise your full spiritual potential.",
     "download": "https://scenariofestival.se/wp-content/uploads/2019/11/ai_seancechrystaltech_gm_info.pdf",
     "image": "https://scenariofestival.se/wp-content/uploads/2019/08/chrystaltech-e1567187203925.jpg",
-    "years": [
-      2019
-    ]
-  },
-  {
-    "title": "Beautiful Dreamer",
-    "url": "https://scenariofestival.se/archive/scenarios-2019/beautiful-dreamer/",
-    "year": 2019,
-    "authors": "Niklas Disefalk",
-    "tags": [
-      "Mother/Daughter relationship",
-      "Growing up",
-      "Forgiveness"
-    ],
-    "format": "",
-    "duration": "2 hours",
-    "players": "2",
-    "description": "“Beautiful Dreamer” is a science fiction time travel story that takes place in the near future. But it is also a personal story. A young dying mother sacrifices everything in order to be able to see her daughter grow up. She manages to visit her daughter during a few key moments of her life. The visits are sometimes sad and sometimes beautiful. They are given a lifetime together, but their lives are torn apart. It is a lifetime chopped up in small, short moments. This scenario is about the relationship between a mother and a daughter. From the child's boundless love, to the teenage daughter's emotional liberation process and so on through life.",
-    "download": "https://scenariofestival.se/wp-content/uploads/2019/11/beautiful-dreamer-english.pdf",
-    "image": "https://scenariofestival.se/wp-content/uploads/2019/08/beautiful-dreamer-square.jpg",
     "years": [
       2019
     ]
@@ -1922,7 +2266,11 @@
     "url": "https://scenariofestival.se/archive/scenarios-2019/the-nano-games/",
     "year": 2019,
     "authors": "Tobias Wrigstad & Per Wetterstrand",
-    "tags": [],
+    "tags": [
+      "Inner monologues",
+      "crises",
+      "surface"
+    ],
     "format": "",
     "duration": "1 h",
     "players": "3",
@@ -2079,7 +2427,11 @@
     "url": "https://scenariofestival.se/archive/scenarios-2018/the-nano-games-2018/get-into-his-her-head/",
     "year": 2018,
     "authors": "Elli Garperian & Elina Andersson (swe)",
-    "tags": [],
+    "tags": [
+      "Norms",
+      "Relationship",
+      "Meta techniques"
+    ],
     "format": "",
     "duration": "1 hours",
     "players": "2-5",
@@ -2277,7 +2629,11 @@
     "url": "https://scenariofestival.se/archive/scenarios-2018/sexcraft/",
     "year": 2018,
     "authors": "Frida Sofie Jansen and Tor Kjetil Edland (no)",
-    "tags": [],
+    "tags": [
+      "Awkward",
+      "Feelgood",
+      "Dubbing"
+    ],
     "format": "",
     "duration": "2 hours",
     "players": "4",
@@ -2391,27 +2747,6 @@
     ]
   },
   {
-    "title": "The Testimony",
-    "url": "https://scenariofestival.se/archive/scenarios-2018/the-testimony/",
-    "year": 2018,
-    "authors": "Susanne Gräslund & Anders Hultman (swe)",
-    "tags": [
-      "Truth",
-      "Antisemitism",
-      "Genocide"
-    ],
-    "format": "",
-    "duration": "2 hours",
-    "players": "4",
-    "description": "Deep inside we are all xenophobics, sorting people in us and them. This is a story about what happens when the thin polish of civilization bursts and people start turning on their neighbours. The Testimony is a feel bad scenario about the course of events in a small village in eastern Poland during the first years of WWII. In a war struck countryside, the Catholics turned against their neighbours, an almost equally large Jewish population, and burned them alive or killed them in other bestialic ways. Because more or less everyone who survived were involved in the killings or benefited from them the truth was denied for a very long time and was not unveiled until recently.",
-    "download": "https://scenariofestival.se/wp-content/uploads/2018/11/the-testimony.pdf",
-    "image": "https://scenariofestival.se/wp-content/uploads/2018/08/40455474_2099075943743098_4046960096029179904_n.png",
-    "years": [
-      2015,
-      2018
-    ]
-  },
-  {
     "title": "Wilful Disregard",
     "url": "https://scenariofestival.se/archive/scenarios-2018/the-nano-games-2018/wilful-disregard/",
     "year": 2018,
@@ -2456,7 +2791,11 @@
     "url": "https://scenariofestival.se/archive/scenarios-2017/athenas-chosen/",
     "year": 2017,
     "authors": "Susanne Vejdemo and Anna-Karin Linder (swe)",
-    "tags": [],
+    "tags": [
+      "Empowerment",
+      "Lust",
+      "Faith"
+    ],
     "format": "",
     "duration": "4 hours",
     "players": "6-18",
@@ -2513,7 +2852,11 @@
     "url": "https://scenariofestival.se/archive/scenarios-2017/nano-games-relationsship/expedition-orealven/",
     "year": 2017,
     "authors": "Sabina Sonning & Lena Levin & Gustav Tegby (swe)",
-    "tags": [],
+    "tags": [
+      "Friendship",
+      "Betrayal",
+      "Panic"
+    ],
     "format": "",
     "duration": "1 hours",
     "players": "4",
@@ -2529,7 +2872,11 @@
     "url": "https://scenariofestival.se/archive/scenarios-2017/first-they-came/",
     "year": 2017,
     "authors": "Alessandro Giovannucci & Andrea Giovannucci (it)",
-    "tags": [],
+    "tags": [
+      "Guilt",
+      "Egoism",
+      "Opposition"
+    ],
     "format": "",
     "duration": "2 hours",
     "players": "3",
@@ -2545,7 +2892,11 @@
     "url": "https://scenariofestival.se/archive/scenarios-2017/house-of-craving/",
     "year": 2017,
     "authors": "Danny Wilson (dk) and Tor Kjetil Edland (no)",
-    "tags": [],
+    "tags": [
+      "Erotic",
+      "Psychological",
+      "Horror"
+    ],
     "format": "",
     "duration": "4 hours",
     "players": "4",
@@ -2561,7 +2912,11 @@
     "url": "https://scenariofestival.se/archive/scenarios-2017/nano-games-relationsship/in-your-steps/",
     "year": 2017,
     "authors": "Frida Lindegren (swe)",
-    "tags": [],
+    "tags": [
+      "Parenting",
+      "Values",
+      "Improvisation"
+    ],
     "format": "",
     "duration": "1 hours",
     "players": "3",
@@ -2577,7 +2932,11 @@
     "url": "https://scenariofestival.se/archive/scenarios-2017/nano-games-relationsship/just-give-me-a-reason/",
     "year": 2017,
     "authors": "Emma Öhrström Wedberg & Jacob Ordeberg (swe)",
-    "tags": [],
+    "tags": [
+      "Relationships",
+      "Conflict",
+      "Silent play"
+    ],
     "format": "",
     "duration": "1 hours",
     "players": "4",
@@ -2614,7 +2973,11 @@
     "url": "https://scenariofestival.se/archive/scenarios-2017/nano-games-relationsship/",
     "year": 2017,
     "authors": "Sabina Sonning & Lena Levin & Gustav Tegby (swe)",
-    "tags": [],
+    "tags": [
+      "Friendship",
+      "Betrayal",
+      "Panic"
+    ],
     "format": "",
     "duration": "",
     "players": "",
@@ -2630,7 +2993,11 @@
     "url": "https://scenariofestival.se/archive/scenarios-2017/nebido-give-life-a-chance/",
     "year": 2017,
     "authors": "Caroline Sjövall (swe)",
-    "tags": [],
+    "tags": [
+      "Institution",
+      "surrogate fathers",
+      "Sacrifice"
+    ],
     "format": "",
     "duration": "4 hours",
     "players": "5-15 players",
@@ -2646,7 +3013,11 @@
     "url": "https://scenariofestival.se/archive/scenarios-2017/opera-buffa/",
     "year": 2017,
     "authors": "Tayler Stokes (us)",
-    "tags": [],
+    "tags": [
+      "Singing",
+      "Tragicomic",
+      "Absurdity"
+    ],
     "format": "",
     "duration": "2 hours",
     "players": "4-6",
@@ -2658,32 +3029,15 @@
     ]
   },
   {
-    "title": "Play the Cards",
-    "url": "https://scenariofestival.se/archive/scenarios-2017/play-the-cards/",
-    "year": 2017,
-    "authors": "Frida Sofie Jansen, Tyra Larsdatter Grasmo & Trine Lise Lindahl(no)",
-    "tags": [
-      "Teenagers",
-      "Hierarchy",
-      "Awkwardness"
-    ],
-    "format": "",
-    "duration": "2 hours",
-    "players": "20-32",
-    "description": "Play the Cards is a larp about being a teenager, about fitting in and about knowing your place in the hierarchy. You’re in high school; you know who you are, what your social position is and most importantly, who you want to be. This is your first real house party. No parents. It’s the important party where everyone shows up and anything might happen. We use a deck of cards to indicate high school’s unspoken, but oh-so-public popularity rating. The Hearts are the popular girls led by their queen. The cool guys are The Spades. The Clubs are the alternative people that are engaged in politics or culture. And lastly you have The Diamonds, the outsiders and nerds whom no one likes and who stick ",
-    "download": "https://www.dropbox.com/s/4tuhic71259z30h/Play%20the%20cards.zip?dl=0",
-    "image": "https://scenariofestival.se/wp-content/uploads/2017/06/poster-e1504972393681.jpg",
-    "years": [
-      2013,
-      2017
-    ]
-  },
-  {
     "title": "Pretty boys",
     "url": "https://scenariofestival.se/archive/scenarios-2017/pretty-boys/",
     "year": 2017,
     "authors": "Lukas Renklint (swe)",
-    "tags": [],
+    "tags": [
+      "Gender roles",
+      "Power",
+      "Family"
+    ],
     "format": "",
     "duration": "3 hours",
     "players": "12-22",
@@ -2699,7 +3053,11 @@
     "url": "https://scenariofestival.se/archive/scenarios-2017/rosenstrasse/",
     "year": 2017,
     "authors": "Moyra Turkington & Jessica Hammer (ca)",
-    "tags": [],
+    "tags": [
+      "Love",
+      "Oppression",
+      "Survival"
+    ],
     "format": "",
     "duration": "4-5 hours",
     "players": "4",
@@ -2735,7 +3093,11 @@
     "url": "https://scenariofestival.se/archive/scenarios-2017/the-home-owners-association/",
     "year": 2017,
     "authors": "Marie Skouenborg (dk)",
-    "tags": [],
+    "tags": [
+      "Drama",
+      "Intrigue",
+      "Comedy"
+    ],
     "format": "",
     "duration": "4 hours",
     "players": "4",
@@ -2751,7 +3113,11 @@
     "url": "https://scenariofestival.se/archive/scenarios-2017/the-last-movie/",
     "year": 2017,
     "authors": "Simon Larsson & Björn Thalén (swe)",
-    "tags": [],
+    "tags": [
+      "Movie",
+      "Text-messages",
+      "Tragic Love"
+    ],
     "format": "",
     "duration": "3 hours",
     "players": "4-20",
@@ -2767,7 +3133,11 @@
     "url": "https://scenariofestival.se/archive/scenarios-2017/trans-dysphoria-blues/",
     "year": 2017,
     "authors": "Samuel Sjöberg (swe)",
-    "tags": [],
+    "tags": [
+      "Emotions",
+      "Identity",
+      "Dysphoria"
+    ],
     "format": "",
     "duration": "4 hours",
     "players": "5",
@@ -2783,7 +3153,11 @@
     "url": "https://scenariofestival.se/archive/scenarios-2017/nano-games-relationsship/when-friendship-happens/",
     "year": 2017,
     "authors": "Gustav Nilsson and Joel Östlund (swe)",
-    "tags": [],
+    "tags": [
+      "Friendship",
+      "Repetition",
+      "Emotional"
+    ],
     "format": "",
     "duration": "1 hours",
     "players": "2-30",
@@ -2799,7 +3173,11 @@
     "url": "https://scenariofestival.se/archive/scenarios-2017/you-want-it-darker/",
     "year": 2017,
     "authors": "Annika Waern (swe)",
-    "tags": [],
+    "tags": [
+      "Cohen",
+      "Memories",
+      "Death"
+    ],
     "format": "",
     "duration": "3 hours",
     "players": "4-8",
@@ -2931,7 +3309,11 @@
     "url": "https://scenariofestival.se/archive/scenarios-2016/its-just-a-stage/",
     "year": 2016,
     "authors": "Karolina Sołtys and Mo Holkar (uk)",
-    "tags": [],
+    "tags": [
+      "Performance",
+      "Co-creation",
+      "Shared history"
+    ],
     "format": "",
     "duration": "3 hour",
     "players": "10-15",
@@ -2957,26 +3339,6 @@
     "players": "5",
     "description": "A dysfunctional family and a choice: keep the family together at all costs, or choose yourself and your freedom? Exploring how toxic systems become normalised and the normal can become toxic, Living Embers uses temporal distortions and surreal occurrences to emphasise each character's choice as they are drawn towards the inevitable conclusion. The house will burn. Who will burn with it? There will be a surreal aspect to the game, which will allow us to use metatechniques in a less immersion breaking way to gain insight into the characters’ inner lives, trigger flashbacks etc. Symbolic characters will enter the house at predefined moments to aggravate family members’ concerns and push their b",
     "download": "https://scenariofestival.se/wp-content/uploads/2016/08/livingembers-ssf.pdf",
-    "image": "",
-    "years": [
-      2016
-    ]
-  },
-  {
-    "title": "Love according to ABBA",
-    "url": "https://scenariofestival.se/archive/scenarios-2016/love-according-to-abba/",
-    "year": 2016,
-    "authors": "Anna Westerling (swe)",
-    "tags": [
-      "Love",
-      "Music",
-      "Party"
-    ],
-    "format": "",
-    "duration": "4 hour",
-    "players": "5",
-    "description": "A band during their last summer tour in the late 70ies. It’s love, drama, music, party and the last days of the disco. We will play out five party nights, one for each month of the tour, and tell the story of the band’s love and lives. It’s new meetings, endings and the longing for something more. The music of ABBA is used to express the character's inner feelings and to dance to. We’ll sing and dance out our emotions for maximum drama. It’s a sing along, not karaoke - so all can join no matter of vocal skills.",
-    "download": "",
     "image": "",
     "years": [
       2016
@@ -3457,26 +3819,6 @@
     "players": "2",
     "description": "Sam can see the future. Dylan can see many possible futures. Tomorrow, they go on a date. When the two of them intersect, can their relationship end in anything but tragedy, or is there more than one way life can turn out? In Six Months, Three Days, you and a partner will play out the relationship between Sam and Dylan, the only two clairvoyants in the world.It is a game about the tension between love and fear, and destiny and free will. You should play Six Months, Three Days if you enjoy inhabiting a character, continuous play, relationship drama, the art of conversation, emotional vulnerability, and building a relationship up only to tear it down.",
     "download": "",
-    "image": "",
-    "years": [
-      2015
-    ]
-  },
-  {
-    "title": "The Black Pram",
-    "url": "https://scenariofestival.se/archive/scenarios-2015/the-black-pram/",
-    "year": 2015,
-    "authors": "Alex Uth",
-    "tags": [
-      "Supernatural",
-      "Player",
-      "driven - Intense"
-    ],
-    "format": "",
-    "duration": "4 hours",
-    "players": "4",
-    "description": "Suburbia, summer, now. A young couple became parents for the first time. Suddenly there was love, so fragile and so violent at the same time. Suddenly there was the smell of baby skin. The sensation of wispy hair in the dark. Small, grasping fingers. Greedy sounds. And then the siege began. The sounds. The creeping coldness. The fear. Lars and Helene are fighting for their baby's life. Every night a dark figure with a black pram waits outside their house. It waits for them to finally come out and give him what he wants. It waits for them to give up.",
-    "download": "https://www.dropbox.com/s/yvuvibc3kwjlxfb/The%20Black%20Pram.zip?dl=0",
     "image": "",
     "years": [
       2015
@@ -4067,7 +4409,11 @@
     "url": "https://scenariofestival.se/archive/scenarios-2013/tango-nights/",
     "year": 2013,
     "authors": "Gunnar Söderberg",
-    "tags": [],
+    "tags": [
+      "Tango",
+      "Jealousy",
+      "Cold war"
+    ],
     "format": "",
     "duration": "4 hours",
     "players": "5",
@@ -4113,26 +4459,6 @@
     "players": "4",
     "description": "The idea of this scenario is to explore life stories and take some pressure off the art of living. Even though our lives are not perfect they can still make a good story. The scenario takes place outside of life, where a group of friends meet and share memories. Each memory is created by the players from inspirational pictures, and played out as a scene. The memory scenes begin in stillness with players' eyes closed. The first thing that happens is that each player describes something about the setting of the scene, for instance scent, scenery, sounds or temperature. This procedure emphasizes that all players are responsible for the content of the story.",
     "download": "http://scenariofestival.se/wp-content/uploads/2013/08/final.pdf",
-    "image": "",
-    "years": [
-      2013
-    ]
-  },
-  {
-    "title": "The Family",
-    "url": "https://scenariofestival.se/archive/scenarios-2013/the-family/",
-    "year": 2013,
-    "authors": "Max Møller",
-    "tags": [
-      "Family",
-      "Tragedy",
-      "Suicide"
-    ],
-    "format": "",
-    "duration": "4 hours",
-    "players": "4",
-    "description": "Steen wants to start over. Laura wants to keep the family together at any price. Thomas said goodbye a long time ago. Pia doesn't want to live any longer. Thomas tells himself he doesn't care. Pia won't admit that she is scared to be alone. Steen thought she knew their relationship was long since dead. Laura puts up with too much. The Family is the story of a family that falls apart. Would you destroy your family to be happy? Would you live an unhappy life for your family's sake?",
-    "download": "https://www.dropbox.com/s/1x7p1zopd39j9fz/The%20family.zip?dl=0",
     "image": "",
     "years": [
       2013
