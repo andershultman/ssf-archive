@@ -297,15 +297,15 @@ select:hover, select:focus { border-color: var(--teal); }
 }
 .card:hover .card-img-wrap img { transform: scale(1.04); }
 
-.card-placeholder {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(135deg, #e8f8f8 0%, #d0eeee 100%);
-}
-.card-placeholder svg { opacity: 0.2; }
+
+
+
+
+
+
+
+
+
 
 /* Year badge */
 .year-badge {
@@ -628,7 +628,8 @@ function hl(t,q){
 const IC=`<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>`;
 const IP=`<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>`;
 const ID=`<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>`;
-const IIMG=`<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.8"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>`;
+const FEATHER = 'https://scenariofestival.se/wp-content/uploads/2017/06/fjacc88der.jpg';
+const IIMG=`<img src="${FEATHER}" alt="" style="width:100%;height:100%;object-fit:cover;object-position:center;opacity:0.55;">`;
 
 function render(scenarios,q){
   const grid=document.getElementById('grid');
@@ -638,8 +639,8 @@ function render(scenarios,q){
     const a=document.createElement('a');
     a.className='card'; a.href=s.url; a.target='_blank'; a.rel='noopener';
     const imgInner=s.image
-      ?`<img src="${esc(s.image)}" alt="${esc(s.title)}" loading="lazy" onerror="this.outerHTML='<div class=\\'card-placeholder\\'>${IIMG.replace(/'/g,'"').replace(/</g,'&lt;').replace(/>/g,'&gt;')}</div>'">`
-      :`<div class="card-placeholder">${IIMG}</div>`;
+      ?`<img src="${esc(s.image)}" alt="${esc(s.title)}" loading="lazy" onerror="this.src='${FEATHER}';this.style.opacity='0.55';">`
+      :`<img src="${FEATHER}" alt="" style="width:100%;height:100%;object-fit:cover;object-position:center;opacity:0.55;">`;
     const tags=(s.tags||[]).map(t=>`<button class="tag" onclick="filterTag(event,'${t.replace(/'/g,"\\'")}')">${hl(t,q)}</button>`).join('');
     const meta=[
       s.duration?`<span class="meta-item">${IC} ${hl(s.duration,q)}</span>`:'',
