@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scenario Archive — Stockholm Scenario Festival</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Yrsa:wght@400;600;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --teal:      #15b6b8;
+  --teal-dark: #119a9c;
+  --text:      #444340;
+  --text2:     #666;
+  --text3:     #999;
+  --border:    #e0e0e0;
+  --white:     #fff;
+}
+
+/* Transparent background — inherits the WordPress page */
+html, body {
+  background: transparent;
+  font-family: 'Source Sans 3', 'Source Sans Pro', Helvetica, sans-serif;
+  color: var(--text);
+  font-size: 15px;
+  line-height: 1.6;
+  /* No scroll on the iframe body itself — parent page scrolls */
+  overflow: hidden;
+}
+
+/* No padding on the outermost wrapper */
+.embed-wrap {
+  width: 100%;
+  background: transparent;
+}
+
+/* ── CONTROLS ────────────────────────────────────────────────── */
+.controls {
+  background: #f0fafa;
+  border: 1px solid #b2e0e0;
+  border-radius: 4px;
+  padding: 1rem 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.search-wrap {
+  position: relative;
+  margin-bottom: 0.75rem;
+}
+.search-wrap svg {
+  position: absolute;
+  left: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text3);
+  pointer-events: none;
+}
+#search {
+  width: 100%;
+  padding: 0.65rem 0.9rem 0.65rem 2.4rem;
+  font-family: 'Source Sans 3', 'Source Sans Pro', Helvetica, sans-serif;
+  font-size: 1rem;
+  border: 1px solid #b2e0e0;
+  border-radius: 4px;
+  background: #fff;
+  color: var(--text);
+  outline: none;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+#search:focus {
+  border-color: var(--teal);
+  box-shadow: 0 0 0 3px rgba(21,182,184,0.15);
+}
+#search::placeholder { color: var(--text3); }
+
+.filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+.filter-lbl {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--teal-dark);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  font-family: 'Source Sans 3', 'Source Sans Pro', Helvetica, sans-serif;
+  font-size: 0.82rem;
+  padding: 0.42rem 1.9rem 0.42rem 0.7rem;
+  border: 1px solid #b2e0e0;
+  border-radius: 4px;
+  background: #fff
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%2315b6b8' stroke-width='1.8' fill='none' stroke-linecap='round'/%3E%3C/svg%3E")
+    no-repeat right 0.6rem center;
+  color: var(--text);
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.15s;
+}
+select:hover, select:focus { border-color: var(--teal); }
+
+.clear-btn {
+  margin-left: auto;
+  font-family: 'Source Sans 3', 'Source Sans Pro', Helvetica, sans-serif;
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 0.42rem 0.85rem;
+  background: #fff;
+  border: 1px solid #b2e0e0;
+  border-radius: 4px;
+  color: var(--teal-dark);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.clear-btn:hover { background: var(--teal); color: #fff; border-color: var(--teal); }
+
+/* ── RESULTS BAR ─────────────────────────────────────────────── */
+.results-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.results-count { font-size: 0.85rem; color: var(--text3); }
+.results-count strong { color: var(--text); font-weight: 600; }
+.sort-wrap { display: flex; align-items: center; gap: 0.4rem; font-size: 0.85rem; color: var(--text3); }
+
+/* ── CARD GRID ───────────────────────────────────────────────── */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.2rem;
+}
+
+/* ── CARD ────────────────────────────────────────────────────── */
+.card {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.15s, transform 0.15s;
+}
+.card:hover {
+  box-shadow: 0 4px 16px rgba(21,182,184,0.2);
+  transform: translateY(-2px);
+}
+
+.card-img-wrap {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+}
+.card-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s;
+}
+.card:hover .card-img-wrap img { transform: scale(1.04); }
+
+.year-badge {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  background: var(--teal);
+  color: #fff;
+  font-family: 'Source Sans 3', 'Source Sans Pro', Helvetica, sans-serif;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  border-radius: 3px;
+}
+
+.card-body {
+  padding: 0.85rem 0.95rem 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  flex: 1;
+}
+.card-title {
+  font-family: 'Yrsa', Georgia, serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.3;
+}
+.card:hover .card-title { color: var(--teal-dark); }
+.card-authors {
+  font-size: 0.8rem;
+  color: var(--text2);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+  margin-top: 0.1rem;
+}
+.tag {
+  font-size: 0.63rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  background: #e8f8f8;
+  color: var(--teal-dark);
+  padding: 2px 7px;
+  border-radius: 3px;
+  border: none;
+  font-family: 'Source Sans 3', 'Source Sans Pro', Helvetica, sans-serif;
+  cursor: pointer;
+  line-height: 1.6;
+  transition: background 0.12s, color 0.12s;
+}
+.tag:hover { background: var(--teal); color: #fff; }
+.card-desc {
+  font-size: 0.78rem;
+  color: var(--text3);
+  line-height: 1.55;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  flex: 1;
+  margin-top: 0.2rem;
+}
+.card-footer {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding-top: 0.55rem;
+  margin-top: 0.2rem;
+  border-top: 1px solid #f0f0f0;
+  flex-wrap: wrap;
+}
+.meta-item {
+  font-size: 0.73rem;
+  color: var(--text3);
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  white-space: nowrap;
+}
+.meta-item svg { color: var(--teal); flex-shrink: 0; }
+.fmt-badge {
+  font-size: 0.63rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background: #fff3e0;
+  color: #c0842b;
+  padding: 1px 6px;
+  border-radius: 3px;
+}
+.dl-btn {
+  margin-left: auto;
+  font-size: 0.72rem;
+  color: var(--teal);
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  font-weight: 600;
+}
+
+/* ── NO RESULTS ──────────────────────────────────────────────── */
+.no-results {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 3rem 2rem;
+  color: var(--text3);
+  border: 1px dashed var(--border);
+  border-radius: 4px;
+}
+.no-results h3 {
+  font-family: 'Yrsa', Georgia, serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--text2);
+  margin-bottom: 0.3rem;
+}
+
+mark {
+  background: #fff9c4;
+  color: inherit;
+  border-radius: 2px;
+  padding: 0 1px;
+}
+
+/* ── MOBILE ──────────────────────────────────────────────────── */
+@media (max-width: 560px) {
+  .grid { grid-template-columns: repeat(2, 1fr); gap: 0.75rem; }
+  .card-body { padding: 0.65rem 0.7rem; }
+  .card-title { font-size: 0.9rem; }
+  .card-desc { display: none; }
+  .card-authors { display: none; }
+  .filter-row { gap: 0.35rem; }
+  select { font-size: 0.8rem; }
+}
+@media (max-width: 360px) {
+  .grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+<div class="embed-wrap" id="embed-wrap">
+
+  <div class="controls">
+    <div class="search-wrap">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="search" id="search" placeholder="Search by title, author or theme…" autocomplete="off" spellcheck="false">
+    </div>
+    <div class="filter-row">
+      <span class="filter-lbl">Filter:</span>
+      <select id="filter-year"><option value="">All years</option></select>
+      <select id="filter-duration"><option value="">Any duration</option></select>
+      <select id="filter-players"><option value="">Any players</option></select>
+      <select id="filter-format"><option value="">Any format</option></select>
+      <button class="clear-btn" onclick="clearAll()">Clear all</button>
+    </div>
+  </div>
+
+  <div class="results-bar">
+    <span class="results-count">Showing <strong id="result-count">—</strong> of <strong id="total-count">—</strong> scenarios</span>
+    <div class="sort-wrap">
+      Sort:&nbsp;
+      <select id="sort">
+        <option value="year-desc">Newest first</option>
+        <option value="year-asc">Oldest first</option>
+        <option value="title">Title A–Z</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="grid" id="grid"></div>
+
+</div><!-- /.embed-wrap -->
+
+<script>
+// ── DATA ─────────────────────────────────────────────────────────────────────
+// Loads scenarios.json from the same GitHub Pages folder.
+// Falls back to a small sample if not found.
+const SAMPLE=[{"title":"Dance the Macabray","url":"https://scenariofestival.se/archive/scenarios-2017/dance-the-macabray/","year":2017,"years":[2017],"authors":"Frida Lindegren & Sofia Stenler","tags":["Death","Dance","Relationships"],"format":"","duration":"4 hours","players":"12-24","description":"The dead are leaving their graveyard to dance with the living, one last time.","download":"https://scenariofestival.se/wp-content/uploads/2017/11/dance-the-macabray-larp-script.pdf","image":"https://scenariofestival.se/wp-content/uploads/2017/06/318025a1e-e1504967357154.jpg"},{"title":"Birkenau","url":"https://scenariofestival.se/archive/scenarios-2022/birkenau/","year":2022,"years":[2022],"authors":"Jonas Sandberg Jensen","tags":["Tragic drama","Resistance","Immersion"],"format":"","duration":"4 hours","players":"4","description":"Four Jewish musicians struggle to survive in Auschwitz-Birkenau. Music becomes both solace and desperation.","download":"https://scenariofestival.se/wp-content/uploads/2018/11/birkenau_uk.pdf","image":"https://scenariofestival.se/wp-content/uploads/2022/08/stockholm_birkenau-e1534249517338.png"},{"title":"Rosenstrasse","url":"https://scenariofestival.se/archive/scenarios-2017/rosenstrasse/","year":2017,"years":[2017],"authors":"Moyra Turkington & Jessica Hammer","tags":["Love","Oppression","Survival"],"format":"","duration":"4-5 hours","players":"4","description":"Winter has come to Germany. Lines are drawn. These women have one last chance.","download":"","image":"https://scenariofestival.se/wp-content/uploads/2017/06/rosenstrasse-square.jpg"}];
+
+const FEATHER = 'https://scenariofestival.se/wp-content/uploads/2017/06/fjacc88der.jpg';
+let DATA = [], filtered = [];
+
+// ── LOAD ─────────────────────────────────────────────────────────────────────
+async function loadData() {
+  try {
+    const r = await fetch('scenarios.json');
+    if (r.ok) DATA = await r.json(); else throw 0;
+  } catch { DATA = SAMPLE; }
+  init();
+}
+
+function init() {
+  document.getElementById('total-count').textContent = DATA.length;
+  populateFilters();
+  bindEvents();
+  applyFilters();
+}
+
+// ── FILTERS ───────────────────────────────────────────────────────────────────
+function populateFilters() {
+  const ysel = document.getElementById('filter-year');
+  [...new Set(DATA.map(s=>s.year).filter(Boolean))].sort((a,b)=>b-a).forEach(y=>ysel.append(new Option(y,y)));
+  const dsel = document.getElementById('filter-duration');
+  [['1 hour','1'],['2 hours','2'],['3 hours','3'],['4+ hours','4+']].forEach(([l,v])=>dsel.append(new Option(l,v)));
+  const psel = document.getElementById('filter-players');
+  [['Solo (1)','1'],['2–3 players','2-3'],['4–5 players','4-5'],['6–10 players','6-10'],['11+ players','11+']].forEach(([l,v])=>psel.append(new Option(l,v)));
+  const fsel = document.getElementById('filter-format');
+  [...new Set(DATA.map(s=>s.format).filter(Boolean))].sort().forEach(f=>fsel.append(new Option(f,f)));
+}
+
+function getState() {
+  return {
+    q:    document.getElementById('search').value.trim().toLowerCase(),
+    year: document.getElementById('filter-year').value,
+    dur:  document.getElementById('filter-duration').value,
+    pl:   document.getElementById('filter-players').value,
+    fmt:  document.getElementById('filter-format').value,
+    sort: document.getElementById('sort').value,
+  };
+}
+
+function matchQ(s,q){ if(!q)return true; const h=[s.title,s.authors,...(s.tags||[]),s.description].join(' ').toLowerCase(); return q.split(/\s+/).every(w=>h.includes(w)); }
+function matchDur(s,d){ if(!d)return true; const n=parseFloat((s.duration||'').match(/[\d.]+/)?.[0]||0); if(!n)return false; if(d==='4+')return n>=4; return Math.round(n)===parseInt(d); }
+function matchPl(s,b){ if(!b)return true; const nums=(s.players||'').replace(/\s/g,'').match(/\d+/g); if(!nums)return false; const lo=parseInt(nums[0]),hi=nums[1]?parseInt(nums[1]):lo; if(b==='1')return lo===1&&hi===1; if(b==='2-3')return lo<=3&&hi>=2; if(b==='4-5')return lo<=5&&hi>=4; if(b==='6-10')return lo<=10&&hi>=6; if(b==='11+')return hi>=11||lo>=11; return true; }
+
+function applyFilters() {
+  const st = getState();
+  filtered = DATA.filter(s =>
+    matchQ(s,st.q) &&
+    (!st.year || (s.years||[s.year]).map(String).includes(st.year)) &&
+    matchDur(s,st.dur) && matchPl(s,st.pl) &&
+    (!st.fmt || s.format===st.fmt)
+  );
+  if (st.sort==='year-asc')  filtered.sort((a,b)=>a.year-b.year||a.title.localeCompare(b.title));
+  else if (st.sort==='title') filtered.sort((a,b)=>a.title.localeCompare(b.title));
+  else                        filtered.sort((a,b)=>b.year-a.year||a.title.localeCompare(b.title));
+
+  document.getElementById('result-count').textContent = filtered.length;
+  render(filtered, st.q);
+  // Tell parent iframe our new height so it can resize with no scrollbar
+  notifyHeight();
+}
+
+// ── RENDER ────────────────────────────────────────────────────────────────────
+function esc(s){return(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+function hl(t,q){
+  if(!q||!t)return esc(t||'');
+  const ws=q.split(/\s+/).filter(Boolean).map(w=>w.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'));
+  return esc(t).replace(new RegExp(`(${ws.join('|')})`, 'gi'),'<mark>$1</mark>');
+}
+
+const IC=`<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>`;
+const IP=`<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>`;
+const ID=`<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>`;
+
+function render(scenarios, q) {
+  const grid = document.getElementById('grid');
+  grid.innerHTML = '';
+  if (!scenarios.length) {
+    grid.innerHTML = '<div class="no-results"><h3>No scenarios found</h3><p>Try different keywords or remove a filter.</p></div>';
+    notifyHeight();
+    return;
+  }
+  scenarios.forEach(s => {
+    const a = document.createElement('a');
+    a.className = 'card';
+    a.href = s.url;
+    a.target = '_blank';
+    a.rel = 'noopener';
+
+    const imgSrc = s.image || FEATHER;
+    const imgOpacity = s.image ? '1' : '0.55';
+    const tags = (s.tags||[]).map(t=>`<button class="tag" onclick="filterTag(event,'${t.replace(/'/g,"\\'")}')">${hl(t,q)}</button>`).join('');
+    const meta = [
+      s.duration ? `<span class="meta-item">${IC} ${hl(s.duration,q)}</span>` : '',
+      s.players  ? `<span class="meta-item">${IP} ${hl(s.players,q)}</span>`  : '',
+      s.format   ? `<span class="fmt-badge">${hl(s.format,q)}</span>`         : '',
+    ].filter(Boolean).join('');
+    const dl = s.download ? `<span class="dl-btn">${ID} Download</span>` : '';
+    const yearLabel = (s.years && s.years.length > 1) ? s.years.join(' · ') : s.year;
+
+    a.innerHTML = `
+      <div class="card-img-wrap">
+        <img src="${esc(imgSrc)}" alt="${esc(s.title)}" loading="lazy"
+             style="opacity:${imgOpacity}"
+             onerror="this.src='${FEATHER}';this.style.opacity='0.55';">
+        <span class="year-badge">${yearLabel}</span>
+      </div>
+      <div class="card-body">
+        <div class="card-title">${hl(s.title,q)}</div>
+        ${s.authors ? `<div class="card-authors">${hl(s.authors,q)}</div>` : ''}
+        ${tags      ? `<div class="tags">${tags}</div>`                    : ''}
+        ${s.description ? `<div class="card-desc">${hl(s.description,q)}</div>` : ''}
+        <div class="card-footer">${meta}${dl}</div>
+      </div>`;
+    grid.appendChild(a);
+  });
+  // After images load, re-notify height
+  setTimeout(notifyHeight, 300);
+}
+
+// ── IFRAME HEIGHT REPORTING ───────────────────────────────────────────────────
+// Sends the page's full rendered height to the parent window so the iframe
+// can be resized automatically — no double scrollbar, no fixed height needed.
+function notifyHeight() {
+  const h = document.getElementById('embed-wrap').scrollHeight;
+  if (window.parent !== window) {
+    window.parent.postMessage({ type: 'ssf-archive-height', height: h }, '*');
+  }
+}
+// Also report on window resize
+window.addEventListener('resize', () => setTimeout(notifyHeight, 100));
+
+// ── INTERACTIONS ──────────────────────────────────────────────────────────────
+function filterTag(e, tag) {
+  e.preventDefault();
+  e.stopPropagation();
+  document.getElementById('search').value = tag;
+  applyFilters();
+  // Tell parent to scroll to top of iframe
+  if (window.parent !== window) {
+    window.parent.postMessage({ type: 'ssf-archive-scroll-top' }, '*');
+  }
+}
+
+function clearAll() {
+  document.getElementById('search').value = '';
+  ['filter-year','filter-duration','filter-players','filter-format'].forEach(id => document.getElementById(id).value = '');
+  document.getElementById('sort').value = 'year-desc';
+  applyFilters();
+}
+
+function debounce(fn, ms) { let t; return (...a) => { clearTimeout(t); t = setTimeout(()=>fn(...a), ms); }; }
+
+function bindEvents() {
+  document.getElementById('search').addEventListener('input', debounce(applyFilters, 180));
+  ['filter-year','filter-duration','filter-players','filter-format','sort'].forEach(id =>
+    document.getElementById(id).addEventListener('change', applyFilters));
+}
+
+loadData();
+</script>
+</body>
+</html>
