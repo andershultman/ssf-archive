@@ -137,8 +137,8 @@ select:hover, select:focus { border-color: var(--teal); }
 /* ── CARD GRID ───────────────────────────────────────────────── */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 1.2rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.9rem;
 }
 
 /* ── CARD ────────────────────────────────────────────────────── */
@@ -234,15 +234,15 @@ select:hover, select:focus { border-color: var(--teal); }
 }
 .tag:hover { background: var(--teal); color: #fff; }
 .card-desc {
-  font-size: 0.78rem;
+  font-size: 0.88rem;
   color: var(--text3);
-  line-height: 1.55;
+  line-height: 1.6;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
-  overflow-y: auto; overflow-x: hidden;
+  overflow: hidden;
   flex: 1;
-  margin-top: 0.2rem;
+  margin-top: 0.25rem;
 }
 .card-footer {
   display: flex;
@@ -307,16 +307,16 @@ mark {
 }
 
 /* ── MOBILE ──────────────────────────────────────────────────── */
-@media (max-width: 560px) {
-  .grid { grid-template-columns: repeat(2, 1fr); gap: 0.75rem; }
-  .card-body { padding: 0.65rem 0.7rem; }
-  .card-title { font-size: 0.9rem; }
+@media (max-width: 500px) {
+  .grid { grid-template-columns: repeat(2, 1fr); gap: 0.6rem; }
+  .card-body { padding: 0.6rem 0.65rem; }
+  .card-title { font-size: 0.88rem; }
   .card-desc { display: none; }
   .card-authors { display: none; }
   .filter-row { gap: 0.35rem; }
   select { font-size: 0.8rem; }
 }
-@media (max-width: 360px) {
+@media (max-width: 340px) {
   .grid { grid-template-columns: 1fr; }
 }
 </style>
