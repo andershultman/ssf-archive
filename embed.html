@@ -415,9 +415,10 @@ function applyFilters() {
     matchDur(s,st.dur) && matchPl(s,st.pl) &&
     (!st.fmt || s.format===st.fmt)
   );
-  if (st.sort==='year-asc')  filtered.sort((a,b)=>a.year-b.year||a.title.localeCompare(b.title));
-  else if (st.sort==='title') filtered.sort((a,b)=>a.title.localeCompare(b.title));
-  else                        filtered.sort((a,b)=>b.year-a.year||a.title.localeCompare(b.title));
+  const sk = s => s.sort_title || s.title;  // sort_title allows overriding sort order
+  if (st.sort==='year-asc')  filtered.sort((a,b)=>a.year-b.year||sk(a).localeCompare(sk(b)));
+  else if (st.sort==='title') filtered.sort((a,b)=>sk(a).localeCompare(sk(b)));
+  else                        filtered.sort((a,b)=>b.year-a.year||sk(a).localeCompare(sk(b)));
 
   document.getElementById('result-count').textContent = filtered.length;
   render(filtered, st.q);
