@@ -191,13 +191,14 @@ body {
       <select id="filter-duration" aria-label="Duration"><option value="">Any duration</option></select>
       <select id="filter-players" aria-label="Number of players"><option value="">Any players</option></select>
       <select id="filter-format" aria-label="Format"><option value="">Any format</option></select>
-      <label class="dl-check"><input type="checkbox" id="filter-download"> Download available</label>
-      <button type="button" class="clear-btn" id="clear">Clear all</button>
+      <label class="dl-check"><input type="checkbox" id="filter-download"> Downloadable</label>
     </div>
   </div>
 
   <div class="results-bar">
     <span class="results-count" aria-live="polite">Showing <strong id="result-count">—</strong> of <strong id="total-count">—</strong> scenarios</span>
+    <div class="results-actions">
+      <button type="button" class="clear-btn" id="clear">Clear all</button>
     <label class="sort-wrap">Sort:
       <select id="sort">
         <option value="year-desc">Newest first</option>
@@ -205,6 +206,7 @@ body {
         <option value="title">Title A–Z</option>
       </select>
     </label>
+    </div>
   </div>
 
   <div class="grid" id="grid"><div class="message"><p>Loading…</p></div></div>

@@ -42,7 +42,7 @@ body { font-family: var(--font); color: var(--text); font-size: 15px; line-heigh
 #search:focus { border-color: var(--teal); box-shadow: 0 0 0 3px rgba(21,182,184,0.2); outline: none; }
 #search::placeholder { color: var(--text3); }
 
-.filter-row { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; }
+.filter-row { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem 0.45rem; }
 .filter-lbl {
   font-size: 0.72rem; font-weight: 700; color: var(--teal-dark);
   text-transform: uppercase; letter-spacing: 0.08em;
@@ -50,19 +50,19 @@ body { font-family: var(--font); color: var(--text); font-size: 15px; line-heigh
 select {
   appearance: none; -webkit-appearance: none;
   font: 0.85rem var(--font);
-  padding: 0.45rem 1.9rem 0.45rem 0.7rem;
+  padding: 0.45rem 1.7rem 0.45rem 0.6rem;
   border: 1px solid #b2e0e0; border-radius: 4px;
-  background: #fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%2315b6b8' stroke-width='1.8' fill='none' stroke-linecap='round'/%3E%3C/svg%3E") no-repeat right 0.6rem center;
+  background: #fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%2315b6b8' stroke-width='1.8' fill='none' stroke-linecap='round'/%3E%3C/svg%3E") no-repeat right 0.5rem center;
   color: var(--text); cursor: pointer;
   transition: border-color 0.15s;
 }
 select:hover { border-color: var(--teal); }
-.dl-check { display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.85rem; cursor: pointer; padding: 0.45rem 0.2rem; }
+.dl-check { display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.85rem; cursor: pointer; padding: 0.45rem 0.1rem; white-space: nowrap; }
 .dl-check input { accent-color: var(--teal-dark); width: 1rem; height: 1rem; cursor: pointer; }
+.results-actions { display: flex; align-items: center; gap: 0.8rem; flex-wrap: wrap; }
 .clear-btn {
-  margin-left: auto;
   font: 600 0.85rem var(--font);
-  padding: 0.45rem 0.85rem;
+  padding: 0.45rem 0.7rem;
   background: #fff; border: 1px solid #b2e0e0; border-radius: 4px;
   color: var(--teal-dark); cursor: pointer;
   transition: background 0.15s, color 0.15s, border-color 0.15s;
