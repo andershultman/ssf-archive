@@ -578,7 +578,6 @@
     "download": "https://stockholmscenariofestival.wordpress.com/wp-content/uploads/2025/10/meatballs_and_milk_eng.pdf",
     "image": "https://stockholmscenariofestival.wordpress.com/wp-content/uploads/2025/08/meatballs-and-milk-1-1.jpg",
     "years": [
-      2021,
       2025
     ]
   },
@@ -619,6 +618,7 @@
     "download": "https://stockholmscenariofestival.wordpress.com/wp-content/uploads/2025/10/papers-a-surreal-office-larp-140930-petter-karlsson.pdf",
     "image": "https://stockholmscenariofestival.wordpress.com/wp-content/uploads/2025/08/screenshot-2025-08-31-at-14.02.25.png",
     "years": [
+      2014,
       2015,
       2025
     ]
@@ -720,7 +720,6 @@
     "download": "https://scenariofestival.se/wp-content/uploads/2025/11/still-cats-1.pdf",
     "image": "https://stockholmscenariofestival.wordpress.com/wp-content/uploads/2025/11/cats-1555979_960_720-karolina-soltys.jpg",
     "years": [
-      2021,
       2025
     ]
   },
@@ -881,7 +880,6 @@
     "download": "https://scenariofestival.se/wp-content/uploads/2025/11/complete-when-the-cosmos-speaks_-deliberations-at-norrvakten-eng-felix-hemstrom-trolin-1.pdf",
     "image": "https://stockholmscenariofestival.wordpress.com/wp-content/uploads/2025/11/bild-till-when-the-cosmos-speaks_-deliberations-at-norrvakten-felix-hemstrom-trolin.png",
     "years": [
-      2021,
       2025
     ]
   },
@@ -889,7 +887,7 @@
     "title": "10% More Unique",
     "url": "https://scenariofestival.se/archive/scenarios-2025/10-more-unique/",
     "year": 2025,
-    "authors": "Karolina Soltys and Patrik Bálint",
+    "authors": "Karolina Soltys & Patrik Bálint",
     "tags": [
       "Tragicomedy",
       "Individuality",
@@ -930,7 +928,7 @@
     "title": "A Wedding in Överum",
     "url": "https://scenariofestival.se/archive/scenarios-2024/a-wedding-in-overum/",
     "year": 2024,
-    "authors": "Eva Meunier, Jenny Fornell Hjelm",
+    "authors": "Eva Meunier & Jenny Fornell Hjelm",
     "tags": [
       "Homecomings",
       "Belonging",
@@ -1051,7 +1049,7 @@
     "title": "Gospel",
     "url": "https://scenariofestival.se/archive/scenarios-2024/gospel/",
     "year": 2024,
-    "authors": "Johan Dahlberg and Sofia Stenler",
+    "authors": "Johan Dahlberg & Sofia Stenler",
     "tags": [
       "Faith",
       "Hope",
@@ -1168,7 +1166,6 @@
       2013,
       2017,
       2018,
-      2021,
       2024
     ]
   },
@@ -1281,7 +1278,7 @@
     "format": "Larp",
     "duration": "4 hours",
     "players": "6–12",
-    "description": "",
+    "description": "This larp is about discussing the weather while not talking about important things. We all know how it works, most likely we’ve all been there. The scene-based narrative follows a life of one or two families (depending on the number of players) over several decades. In the earlier times, they all live together, but later children grow up and move away. The larp looks into how we create scripts for certain avoidance behaviours, questions them and hopefully inspires looking for love in things that don't contain it.",
     "download": "",
     "image": "https://scenariofestival.se/wp-content/uploads/2024/08/weatherreport-jana-romanova.png",
     "years": [
@@ -1884,7 +1881,7 @@
     "format": "",
     "duration": "1 hour",
     "players": "10-40",
-    "description": "",
+    "description": "An experimental 1 hour scenario for Saturday night. Who knows where it will take us?",
     "download": "",
     "image": "https://scenariofestival.se/wp-content/uploads/2022/11/mobiliserad.png",
     "years": [
@@ -1908,6 +1905,7 @@
     "download": "https://scenariofestival.se/wp-content/uploads/2022/08/now-i-feel-closer-to-you-karolina-stael.pdf",
     "image": "https://scenariofestival.se/wp-content/uploads/2022/08/now_i_feel_closer_to_you.jpg",
     "years": [
+      2019,
       2022
     ]
   },
@@ -2028,7 +2026,6 @@
     "download": "https://scenariofestival.se/wp-content/uploads/2022/11/the-vision.pdf",
     "image": "https://scenariofestival.se/wp-content/uploads/2022/08/the_vision.jpg",
     "years": [
-      2021,
       2022
     ]
   },
@@ -2049,7 +2046,6 @@
     "download": "https://scenariofestival.se/wp-content/uploads/2022/11/turings_question.pdf",
     "image": "https://scenariofestival.se/wp-content/uploads/2022/08/turings_question.jpg",
     "years": [
-      2021,
       2022
     ]
   },
@@ -2092,7 +2088,6 @@
     "image": "https://scenariofestival.se/wp-content/uploads/2022/08/you_were_always_on_my_mind.jpeg",
     "years": [
       2019,
-      2021,
       2022
     ]
   },
@@ -2192,7 +2187,7 @@
     "format": "",
     "duration": "2 hours",
     "players": "A number divisible by 3 (3/6/9)",
-    "description": "Your character is alarmed by the approaching climate collapse. In this scenario players build a shared world and explore what it means to act together for change.",
+    "description": "Your character is alarmed by the approaching climate collapse, and concerned about biodiversity and ecological sustainability. But word battles in the media exhaust you, as does activism and corporate sabotage. Lately you’ve been having dreams, and as you wake up, a sense of purpose and clarity just about manages to leave as you become fully awake.",
     "download": "https://scenariofestival.se/wp-content/uploads/2021/11/cyborg_gaia_allies.pdf",
     "image": "https://scenariofestival.se/wp-content/uploads/2021/09/cyborg_gaia_allies.jpg"
   },
@@ -2211,7 +2206,7 @@
     ],
     "format": "",
     "duration": "2 hours",
-    "players": "",
+    "players": "5–30",
     "description": "The scenario is based on a true story - the democratization of Chile. And more specifically the referendum and the election that took place in 1988 and 1990. The characters represent different interest groups in the Chilean society at the time. How was the political landscape in Chile at the time? How much are you prepared to compromise? When can you trust your political adversary? Can you cooperate with people you can't forgive? This game takes you back to 1988, the hope, the fear, the optimists and the pessimists. What would you do?",
     "download": "https://scenariofestival.se/wp-content/uploads/2021/11/democratize_in_swedish.pdf",
     "image": "https://scenariofestival.se/wp-content/uploads/2021/11/democratize_bild_redigerad.jpg"
@@ -2221,6 +2216,7 @@
     "url": "https://scenariofestival.se/archive/scenarios-2021-2/down-to-the-river/",
     "year": 2021,
     "years": [
+      2019,
       2021
     ],
     "authors": "Jonas Hörberg & Fredrik Åkerlind",
@@ -2254,7 +2250,7 @@
     "players": "2",
     "description": "In this scenario, two players will explore an event through a series of monologues and scenes performed in a subjective perspective. There is a perpetrator and a victim. Or maybe both are perpetrators or victims? There is also an objective truth, but we will really only be able to guess it. There is no fixed script - the players improvise the story using the game's framework. At the beginning of the scenario, players jointly select starting preferences for the scenario. During each scene, players will change what has happened / what will happen by moving, introducing new ones or removing cards. These symbolize that the \"truth\" about what happened shifts, by either telling something else, lyi",
     "download": "https://scenariofestival.se/wp-content/uploads/2021/11/everything_but_the_whole_truth_eng.pdf",
-    "image": "https://scenariofestival.se/wp-content/uploads/2021/11/fjader_hemsidan_scenariona.jpg"
+    "image": ""
   },
   {
     "title": "Four Strangers",
@@ -2441,6 +2437,7 @@
     "url": "https://scenariofestival.se/archive/scenarios-2021-2/to-the-bitter-end/",
     "year": 2021,
     "years": [
+      2019,
       2021
     ],
     "authors": "Lizzie Stark & Bjarke Pedersen",
@@ -2475,6 +2472,28 @@
     "description": "An emotionally intense scenario about creating friendship. You will play two close friends in the same pair for the whole scenario. A few scenes will be played many times, and between each scene you will get to briefly reflect upon what you did during the scene, that affected your friendship. Hopefully you will get better and better at finding the fragile moments when friendship happens. When_Friendship_Deepens by Joel Grimm & Gustav Nilsson Joel Grimm has been a larper and a larp writer for a long time. Games he has written includes",
     "download": "https://scenariofestival.se/wp-content/uploads/2021/11/when_friendship_deepens.pdf",
     "image": "https://scenariofestival.se/wp-content/uploads/2021/09/when_friendship_deepens_bild.jpg"
+  },
+  {
+    "title": "Wilful Disregard",
+    "url": "https://scenariofestival.se/archive/scenarios-2021-2/wilful-disregard-2021/",
+    "year": 2021,
+    "authors": "Anna Westerling",
+    "tags": [
+      "Sex",
+      "Love",
+      "Expectations"
+    ],
+    "format": "",
+    "duration": "1 hour",
+    "players": "2",
+    "description": "She wants love, he wants sex. We follow their relationship from first meeting, first date and to the bitter end. They meet, have sex - and do inner monologues. How do you make it work when it is broken from the beginning? Anna Westerling is a game designer who has done game such as . She is is producing Stockholm Scenario Festival each year and has produced Knutpunkt, and the Nordic larp book. She is a freelance project manager.",
+    "download": "https://scenariofestival.se/wp-content/uploads/2016/08/willful-disregard.pdf",
+    "image": "",
+    "years": [
+      2016,
+      2018,
+      2021
+    ]
   },
   {
     "title": "2028",
@@ -2621,7 +2640,7 @@
     "title": "Summer Lovin’",
     "url": "https://scenariofestival.se/archive/scenarios-2019/summer-lovin/",
     "year": 2019,
-    "authors": "Trine Lise Lindahl, Elin Nilsen and Anna Westerling",
+    "authors": "Trine Lise Lindahl, Elin Nilsen & Anna Westerling",
     "tags": [
       "Sex",
       "Awkwardness",
@@ -2634,6 +2653,7 @@
     "download": "https://scenariofestival.se/wp-content/uploads/2013/08/summer_lovin.pdf",
     "image": "https://scenariofestival.se/wp-content/uploads/2019/08/summerlovin.png",
     "years": [
+      2013,
       2015,
       2019
     ]
@@ -2662,7 +2682,7 @@
     "title": "The Girlfriends",
     "url": "https://scenariofestival.se/archive/scenarios-2019/the-girlfriends/",
     "year": 2019,
-    "authors": "Elin Gissén and Rosalind Göthberg",
+    "authors": "Elin Gissén & Rosalind Göthberg",
     "tags": [
       "Destructiveness",
       "Group dynamics",
@@ -2742,7 +2762,7 @@
     "title": "Among Us",
     "url": "https://scenariofestival.se/archive/scenarios-2018/among-us/",
     "year": 2018,
-    "authors": "Nina Runa Essendrop (dk)",
+    "authors": "Nina Runa Essendrop",
     "tags": [
       "Poetic",
       "Sensory",
@@ -2762,7 +2782,7 @@
     "title": "DaDa Means Nothing",
     "url": "https://scenariofestival.se/archive/scenarios-2018/the-nano-games-2018/dada-means-nothing/",
     "year": 2018,
-    "authors": "Jon Back (swe)",
+    "authors": "Jon Back",
     "tags": [
       "Dadada",
       "Pluplubasch",
@@ -2782,7 +2802,7 @@
     "title": "Decamerone - the road to salvation",
     "url": "https://scenariofestival.se/archive/scenarios-2018/decamerone-the-road-to-salvation/",
     "year": 2018,
-    "authors": "Anna-Karin Linder (swe)",
+    "authors": "Anna-Karin Linder",
     "tags": [
       "Escape",
       "Religious Oppression",
@@ -2802,7 +2822,7 @@
     "title": "Fake News",
     "url": "https://scenariofestival.se/archive/scenarios-2018/the-nano-games-2018/fake-news/",
     "year": 2018,
-    "authors": "Mo Holkar (UK)",
+    "authors": "Mo Holkar",
     "tags": [
       "Fantasy",
       "Light",
@@ -2822,7 +2842,7 @@
     "title": "Flowers on Swan Road",
     "url": "https://scenariofestival.se/archive/scenarios-2018/flowers-on-swan-road/",
     "year": 2018,
-    "authors": "Jorgo Kapow (dk)",
+    "authors": "Jorgo Kapow",
     "tags": [
       "Identities",
       "Racism",
@@ -2842,7 +2862,7 @@
     "title": "Get into his/her head",
     "url": "https://scenariofestival.se/archive/scenarios-2018/the-nano-games-2018/get-into-his-her-head/",
     "year": 2018,
-    "authors": "Elli Garperian & Elina Andersson (swe)",
+    "authors": "Elli Garperian & Elina Andersson",
     "tags": [
       "Norms",
       "Relationship",
@@ -2863,7 +2883,7 @@
     "title": "Gone",
     "url": "https://scenariofestival.se/archive/scenarios-2018/gone/",
     "year": 2018,
-    "authors": "Klaus Meier Olsen (dk)",
+    "authors": "Klaus Meier Olsen",
     "tags": [
       "Dementia",
       "Family",
@@ -2883,7 +2903,7 @@
     "title": "Here Is My Power Button",
     "url": "https://scenariofestival.se/archive/scenarios-2018/here-is-my-power-button/",
     "year": 2018,
-    "authors": "Brodie Atwater (us)",
+    "authors": "Brodie Atwater",
     "tags": [
       "Intimacy",
       "Power",
@@ -2903,7 +2923,7 @@
     "title": "Hobbyhorse",
     "url": "https://scenariofestival.se/archive/scenarios-2018/hobbyhorse/",
     "year": 2018,
-    "authors": "Nynne Søs Rasmussen (dk)",
+    "authors": "Nynne Søs Rasmussen",
     "tags": [
       "Teenagers",
       "Friendship",
@@ -2923,7 +2943,7 @@
     "title": "Hypnopompia",
     "url": "https://scenariofestival.se/archive/scenarios-2018/the-nano-games-2018/hypnopompia/",
     "year": 2018,
-    "authors": "Gustav Edman (swe)",
+    "authors": "Gustav Edman",
     "tags": [
       "Surreal",
       "Experimental",
@@ -2943,7 +2963,7 @@
     "title": "Innocence",
     "url": "https://scenariofestival.se/archive/scenarios-2018/innocence-2/",
     "year": 2018,
-    "authors": "Nina Runa Essendrop (dk)",
+    "authors": "Nina Runa Essendrop",
     "tags": [
       "Clowns",
       "Poetic",
@@ -2963,7 +2983,7 @@
     "title": "Joan the Vampire Slayer",
     "url": "https://scenariofestival.se/archive/scenarios-2018/joan-the-vampire-slayer/",
     "year": 2018,
-    "authors": "Kristoffer Rudkjær and Mads L. Brynnum (dk)",
+    "authors": "Kristoffer Rudkjær & Mads L. Brynnum",
     "tags": [
       "Teen drama",
       "Comedy",
@@ -2983,7 +3003,7 @@
     "title": "Kobanî",
     "url": "https://scenariofestival.se/archive/scenarios-2018/kobani/",
     "year": 2018,
-    "authors": "Signe Hertel (dk)",
+    "authors": "Signe Hertel",
     "tags": [
       "War drama",
       "humanity",
@@ -3003,7 +3023,7 @@
     "title": "Midsummer",
     "url": "https://scenariofestival.se/archive/scenarios-2018/midsummer-2/",
     "year": 2018,
-    "authors": "By: Mikkel Bækgaard",
+    "authors": "Mikkel Bækgaard",
     "tags": [
       "Lovestory",
       "Chamber piece",
@@ -3044,7 +3064,7 @@
     "title": "Sexcraft",
     "url": "https://scenariofestival.se/archive/scenarios-2018/sexcraft/",
     "year": 2018,
-    "authors": "Frida Sofie Jansen and Tor Kjetil Edland (no)",
+    "authors": "Frida Sofie Jansen & Tor Kjetil Edland",
     "tags": [
       "Awkward",
       "Feelgood",
@@ -3065,7 +3085,7 @@
     "title": "Spellbound",
     "url": "https://scenariofestival.se/archive/scenarios-2018/spellbound/",
     "year": 2018,
-    "authors": "Jeppe & Maria Bergmann Hamming (dk)",
+    "authors": "Jeppe & Maria Bergmann Hamming",
     "tags": [
       "Nordic myth",
       "Dance",
@@ -3085,7 +3105,7 @@
     "title": "Strangers",
     "url": "https://scenariofestival.se/archive/scenarios-2018/strangers/",
     "year": 2018,
-    "authors": "Nina Runa Essendrop (dk)",
+    "authors": "Nina Runa Essendrop",
     "tags": [
       "Physical",
       "Abstract",
@@ -3105,7 +3125,7 @@
     "title": "The Circle of Life",
     "url": "https://scenariofestival.se/archive/scenarios-2018/the-circle-of-life/",
     "year": 2018,
-    "authors": "Emelie Klanac & Sally Ståhl (swe)",
+    "authors": "Emelie Klanac & Sally Ståhl",
     "tags": [
       "Comedy",
       "Nostalgia",
@@ -3126,7 +3146,7 @@
     "title": "The Naked Truth",
     "url": "https://scenariofestival.se/archive/scenarios-2018/the-naked-truth/",
     "year": 2018,
-    "authors": "Arttu Hanska & Joonas Katko (fi)",
+    "authors": "Arttu Hanska & Joonas Katko",
     "tags": [
       "Friendship",
       "Sauna",
@@ -3146,7 +3166,7 @@
     "title": "The South Will Rise Again",
     "url": "https://scenariofestival.se/archive/scenarios-2018/the-south-will-rise-again/",
     "year": 2018,
-    "authors": "Jon Back (swe)",
+    "authors": "Jon Back",
     "tags": [
       "Zombies",
       "Stereotypes",
@@ -3166,7 +3186,7 @@
     "title": "The Testimony",
     "url": "https://scenariofestival.se/archive/scenarios-2018/the-testimony/",
     "year": 2018,
-    "authors": "Susanne Gräslund & Anders Hultman (swe)",
+    "authors": "Susanne Gräslund & Anders Hultman",
     "tags": [
       "Truth",
       "Antisemitism",
@@ -3180,36 +3200,14 @@
     "image": "https://scenariofestival.se/wp-content/uploads/2018/08/40455474_2099075943743098_4046960096029179904_n.png",
     "years": [
       2015,
-      2018,
-      2021
-    ]
-  },
-  {
-    "title": "Wilful Disregard",
-    "url": "https://scenariofestival.se/archive/scenarios-2018/the-nano-games-2018/wilful-disregard/",
-    "year": 2018,
-    "authors": "Anna Westerling (swe)",
-    "tags": [
-      "Sex",
-      "Love",
-      "Expectations"
-    ],
-    "format": "",
-    "duration": "1 hour",
-    "players": "2",
-    "description": "She wants love, he wants sex. We follow their relationship from first meeting, first date and to the bitter end. They meet, have sex - and do inner monologues. How do you make it work when it is broken from the beginning? Anna Westerling is a game designer who has done game such as . She is is producing Stockholm Scenario Festival each year and has produced Knutpunkt, and the Nordic larp book. She is a freelance project manager.",
-    "download": "https://scenariofestival.se/wp-content/uploads/2016/08/willful-disregard.pdf",
-    "image": "https://scenariofestival.se/wp-content/uploads/2017/06/fjacc88der.jpg",
-    "years": [
-      2018,
-      2021
+      2018
     ]
   },
   {
     "title": "183 Days",
     "url": "https://scenariofestival.se/archive/scenarios-2017/183-days/",
     "year": 2017,
-    "authors": "Sara Williamson and James Stuart",
+    "authors": "Sara Williamson & James Stuart",
     "tags": [
       "Love",
       "Clairvoyance",
@@ -3229,7 +3227,7 @@
     "title": "Athena's Chosen",
     "url": "https://scenariofestival.se/archive/scenarios-2017/athenas-chosen/",
     "year": 2017,
-    "authors": "Susanne Vejdemo and Anna-Karin Linder (swe)",
+    "authors": "Susanne Vejdemo & Anna-Karin Linder",
     "tags": [
       "Empowerment",
       "Lust",
@@ -3290,7 +3288,7 @@
     "title": "Expedition Öreälven",
     "url": "https://scenariofestival.se/archive/scenarios-2017/nano-games-relationsship/expedition-orealven/",
     "year": 2017,
-    "authors": "Sabina Sonning & Lena Levin & Gustav Tegby (swe)",
+    "authors": "Sabina Sonning, Lena Levin & Gustav Tegby",
     "tags": [
       "Friendship",
       "Betrayal",
@@ -3330,7 +3328,7 @@
     "title": "House of Craving",
     "url": "https://scenariofestival.se/archive/scenarios-2017/house-of-craving/",
     "year": 2017,
-    "authors": "Danny Wilson (dk) and Tor Kjetil Edland (no)",
+    "authors": "Danny Wilson & Tor Kjetil Edland",
     "tags": [
       "Erotic",
       "Psychological",
@@ -3350,7 +3348,7 @@
     "title": "In your steps",
     "url": "https://scenariofestival.se/archive/scenarios-2017/nano-games-relationsship/in-your-steps/",
     "year": 2017,
-    "authors": "Frida Lindegren (swe)",
+    "authors": "Frida Lindegren",
     "tags": [
       "Parenting",
       "Values",
@@ -3370,7 +3368,7 @@
     "title": "Just Give Me A Reason",
     "url": "https://scenariofestival.se/archive/scenarios-2017/nano-games-relationsship/just-give-me-a-reason/",
     "year": 2017,
-    "authors": "Emma Öhrström Wedberg & Jacob Ordeberg (swe)",
+    "authors": "Emma Öhrström Wedberg & Jacob Ordeberg",
     "tags": [
       "Relationships",
       "Conflict",
@@ -3390,7 +3388,7 @@
     "title": "Macbeth",
     "url": "https://scenariofestival.se/archive/scenarios-2017/macbeth/",
     "year": 2017,
-    "authors": "Elsa Helin & Joel Grimm (swe)",
+    "authors": "Elsa Helin & Joel Grimm",
     "tags": [
       "Intense",
       "Shakespeare",
@@ -3411,7 +3409,7 @@
     "title": "Nano-games: Relationships",
     "url": "https://scenariofestival.se/archive/scenarios-2017/nano-games-relationsship/",
     "year": 2017,
-    "authors": "Sabina Sonning & Lena Levin & Gustav Tegby (swe)",
+    "authors": "Sabina Sonning, Lena Levin & Gustav Tegby",
     "tags": [
       "Friendship",
       "Betrayal",
@@ -3431,7 +3429,7 @@
     "title": "Nebido – Give life a chance",
     "url": "https://scenariofestival.se/archive/scenarios-2017/nebido-give-life-a-chance/",
     "year": 2017,
-    "authors": "Caroline Sjövall (swe)",
+    "authors": "Caroline Sjövall",
     "tags": [
       "Institution",
       "surrogate fathers",
@@ -3451,7 +3449,7 @@
     "title": "Opera Buffa!",
     "url": "https://scenariofestival.se/archive/scenarios-2017/opera-buffa/",
     "year": 2017,
-    "authors": "Tayler Stokes (us)",
+    "authors": "Tayler Stokes",
     "tags": [
       "Singing",
       "Tragicomic",
@@ -3471,7 +3469,7 @@
     "title": "Play the Cards",
     "url": "https://scenariofestival.se/archive/scenarios-2017/play-the-cards/",
     "year": 2017,
-    "authors": "Frida Sofie Jansen, Tyra Larsdatter Grasmo & Trine Lise Lindahl(no)",
+    "authors": "Frida Sofie Jansen, Tyra Larsdatter Grasmo & Trine Lise Lindahl",
     "tags": [
       "Teenagers",
       "Status",
@@ -3485,15 +3483,14 @@
     "image": "https://scenariofestival.se/wp-content/uploads/2017/06/poster-e1504972393681.jpg",
     "years": [
       2013,
-      2017,
-      2021
+      2017
     ]
   },
   {
     "title": "Pretty boys",
     "url": "https://scenariofestival.se/archive/scenarios-2017/pretty-boys/",
     "year": 2017,
-    "authors": "Lukas Renklint (swe)",
+    "authors": "Lukas Renklint",
     "tags": [
       "Gender roles",
       "Power",
@@ -3533,7 +3530,7 @@
     "title": "Son of Israel",
     "url": "https://scenariofestival.se/archive/scenarios-2017/son-of-israel/",
     "year": 2017,
-    "authors": "Sanne Harder (dk)",
+    "authors": "Sanne Harder",
     "tags": [
       "World war II",
       "Jewish",
@@ -3546,6 +3543,7 @@
     "download": "",
     "image": "https://scenariofestival.se/wp-content/uploads/2017/06/skc3a6rmbillede-2017-07-24-kl-13-08-11.png",
     "years": [
+      2013,
       2017
     ]
   },
@@ -3553,7 +3551,7 @@
     "title": "The Home Owner's Association",
     "url": "https://scenariofestival.se/archive/scenarios-2017/the-home-owners-association/",
     "year": 2017,
-    "authors": "Marie Skouenborg (dk)",
+    "authors": "Marie Skouenborg",
     "tags": [
       "Drama",
       "Intrigue",
@@ -3573,7 +3571,7 @@
     "title": "The Last Movie",
     "url": "https://scenariofestival.se/archive/scenarios-2017/the-last-movie/",
     "year": 2017,
-    "authors": "Simon Larsson & Björn Thalén (swe)",
+    "authors": "Simon Larsson & Björn Thalén",
     "tags": [
       "Movie",
       "Text-messages",
@@ -3593,7 +3591,7 @@
     "title": "Trans dysphoria blues",
     "url": "https://scenariofestival.se/archive/scenarios-2017/trans-dysphoria-blues/",
     "year": 2017,
-    "authors": "Samuel Sjöberg (swe)",
+    "authors": "Samuel Sjöberg",
     "tags": [
       "Emotions",
       "Identity",
@@ -3613,7 +3611,7 @@
     "title": "When Friendship Happens",
     "url": "https://scenariofestival.se/archive/scenarios-2017/nano-games-relationsship/when-friendship-happens/",
     "year": 2017,
-    "authors": "Gustav Nilsson and Joel Östlund (swe)",
+    "authors": "Gustav Nilsson & Joel Östlund",
     "tags": [
       "Friendship",
       "Repetition",
@@ -3633,7 +3631,7 @@
     "title": "You want it darker",
     "url": "https://scenariofestival.se/archive/scenarios-2017/you-want-it-darker/",
     "year": 2017,
-    "authors": "Annika Waern (swe)",
+    "authors": "Annika Waern",
     "tags": [
       "Cohen",
       "Memories",
@@ -3653,7 +3651,7 @@
     "title": "A Place to Fuck Each Other",
     "url": "https://scenariofestival.se/archive/scenarios-2016/a-place-to-fuck-each-other/",
     "year": 2016,
-    "authors": "Avery Mcdaldno (US)",
+    "authors": "Avery Mcdaldno",
     "tags": [
       "Queer",
       "Relationships",
@@ -3673,7 +3671,7 @@
     "title": "A Spotless Mind",
     "url": "https://scenariofestival.se/archive/scenarios-2016/a-spotless-mind/",
     "year": 2016,
-    "authors": "Simon Larsson (swe)",
+    "authors": "Simon Larsson",
     "tags": [
       "Identity loss",
       "Emotions",
@@ -3693,7 +3691,7 @@
     "title": "Do Us Part",
     "url": "https://scenariofestival.se/archive/scenarios-2016/do-us-part/",
     "year": 2016,
-    "authors": "Annica Strand with workshop design by Elli Garperian (swe)",
+    "authors": "Annica Strand (workshop design: Elli Garperian)",
     "tags": [
       "Relationships",
       "Arguing",
@@ -3713,7 +3711,7 @@
     "title": "Great Great Grandma's Tiara & The Ancestral Farm",
     "url": "https://scenariofestival.se/archive/scenarios-2016/great-great-grandmas-tiara-the-ancestral-farm/",
     "year": 2016,
-    "authors": "Susanne Vejdemo & Daniel Armyr (SWE)",
+    "authors": "Susanne Vejdemo & Daniel Armyr",
     "tags": [
       "Family",
       "Love",
@@ -3733,7 +3731,7 @@
     "title": "Happy Ends",
     "url": "https://scenariofestival.se/archive/scenarios-2016/happy-ends-2/",
     "year": 2016,
-    "authors": "Tobias Wrigstad (swe)",
+    "authors": "Tobias Wrigstad",
     "tags": [],
     "format": "",
     "duration": "4 hours",
@@ -3742,6 +3740,7 @@
     "download": "https://www.dropbox.com/s/3zy158wasczt8nf/Happy%20ends.zip?dl=0",
     "image": "",
     "years": [
+      2013,
       2016
     ]
   },
@@ -3749,7 +3748,7 @@
     "title": "I don't like Mondays",
     "url": "https://scenariofestival.se/archive/scenarios-2016/i-dont-like-mondays/",
     "year": 2016,
-    "authors": "Ann Kristine Eriksen (DK)",
+    "authors": "Ann Kristine Eriksen",
     "tags": [
       "Documentary",
       "Identity",
@@ -3769,7 +3768,7 @@
     "title": "It's just a Stage",
     "url": "https://scenariofestival.se/archive/scenarios-2016/its-just-a-stage/",
     "year": 2016,
-    "authors": "Karolina Sołtys and Mo Holkar (uk)",
+    "authors": "Karolina Soltys & Mo Holkar",
     "tags": [
       "Performance",
       "Co-creation",
@@ -3789,7 +3788,7 @@
     "title": "Living Embers",
     "url": "https://scenariofestival.se/archive/scenarios-2016/living-embers/",
     "year": 2016,
-    "authors": "Laura Wood, Karolina Soltys, Patrik Balint & David Owen (swe & uk)",
+    "authors": "Laura Wood, Karolina Soltys, Patrik Bálint & David Owen",
     "tags": [
       "Family",
       "Normalisation of Dysfunction",
@@ -3809,7 +3808,7 @@
     "title": "My sister, Malala",
     "url": "https://scenariofestival.se/archive/scenarios-2016/my-sister-malala/",
     "year": 2016,
-    "authors": "Elsa Helin (swe)",
+    "authors": "Elsa Helin",
     "tags": [
       "Internet",
       "Girls",
@@ -3829,7 +3828,7 @@
     "title": "Never For Ever",
     "url": "https://scenariofestival.se/archive/scenarios-2016/never-for-ever/",
     "year": 2016,
-    "authors": "Kristoffer Lindh & Martin Rother-Schirren (swe)",
+    "authors": "Kristoffer Lindh & Martin Rother-Schirren",
     "tags": [
       "Love",
       "Growth",
@@ -3869,7 +3868,7 @@
     "title": "Qivittoq: Fell Walker",
     "url": "https://scenariofestival.se/archive/scenarios-2016/qivittoq-fell-walker/",
     "year": 2016,
-    "authors": "René Toft (DK)",
+    "authors": "René Toft",
     "tags": [
       "Greenland",
       "Myth",
@@ -3889,7 +3888,7 @@
     "title": "Restrictions",
     "url": "https://scenariofestival.se/archive/scenarios-2016/restrictions/",
     "year": 2016,
-    "authors": "Frida Karlsson Lindgren & Sofia Stenler (Swe)",
+    "authors": "Frida Karlsson Lindgren & Sofia Stenler",
     "tags": [
       "Dancing",
       "Non-verbal",
@@ -3909,7 +3908,7 @@
     "title": "Sense and Sensibility",
     "url": "https://scenariofestival.se/archive/scenarios-2016/sense-and-sensibility/",
     "year": 2016,
-    "authors": "Anna Westerling (swe)",
+    "authors": "Anna Westerling",
     "tags": [
       "Romance",
       "Economy",
@@ -3929,7 +3928,7 @@
     "title": "So Mom I Made This Sex Tape",
     "url": "https://scenariofestival.se/archive/scenarios-2016/so-mom-i-made-this-sex-tape/",
     "year": 2016,
-    "authors": "Susanne Vejdemo (swe)",
+    "authors": "Susanne Vejdemo",
     "tags": [
       "Intergenerational",
       "Feminism",
@@ -3949,7 +3948,7 @@
     "title": "The Grey Zone",
     "url": "https://scenariofestival.se/archive/scenarios-2016/the-grey-zone/",
     "year": 2016,
-    "authors": "Siri Sandquist (swe)",
+    "authors": "Siri Sandquist",
     "tags": [
       "Sex",
       "Consent",
@@ -3989,7 +3988,7 @@
     "title": "Until We Find Him",
     "url": "https://scenariofestival.se/archive/scenarios-2016/until-we-find-him/",
     "year": 2016,
-    "authors": "Rasmus Troelsen & Anders Troelsen (DK)",
+    "authors": "Rasmus Troelsen & Anders Troelsen",
     "tags": [
       "Scandinavian road movie",
       "Family drama",
@@ -4009,7 +4008,7 @@
     "title": "Who is Normal?",
     "url": "https://scenariofestival.se/archive/scenarios-2016/who-is-normal/",
     "year": 2016,
-    "authors": "Frida Karlsson Lindgren & Jonatan Gedda (Swe)",
+    "authors": "Frida Karlsson Lindgren & Jonatan Gedda",
     "tags": [
       "Masks",
       "Normality",
@@ -4026,30 +4025,10 @@
     ]
   },
   {
-    "title": "Willful Disregard",
-    "url": "https://scenariofestival.se/archive/scenarios-2016/willful-disregard/",
-    "year": 2016,
-    "authors": "Anna Westerling (swe)",
-    "tags": [
-      "Sex",
-      "Love",
-      "Expectations"
-    ],
-    "format": "",
-    "duration": "1 hour",
-    "players": "2",
-    "description": "She wants love, he wants sex. We follow their relationship from first meeting, first date and to the bitter end. They meet, have sex - and do inner monologues. How do you make it work when it is broken from the beginning? Anna Westerling is a game designer who has done game such as . She is is producing Stockholm Scenario Festival each year and has produced Knutpunkt, and the Nordic larp book. She is a freelance project manager.",
-    "download": "https://scenariofestival.se/wp-content/uploads/2016/08/willful-disregard.pdf",
-    "image": "",
-    "years": [
-      2016
-    ]
-  },
-  {
     "title": "Wilt",
     "url": "https://scenariofestival.se/archive/scenarios-2016/wilt/",
     "year": 2016,
-    "authors": "Mads Jøns Frausig & Karete Jacobsen Meland (DK & NO)",
+    "authors": "Mads Jøns Frausig & Karete Jacobsen Meland",
     "tags": [
       "Breakup",
       "Physical",
@@ -4089,7 +4068,7 @@
     "title": "Your will be done",
     "url": "https://scenariofestival.se/archive/scenarios-2016/your-will-be-done/",
     "year": 2016,
-    "authors": "Caroline Sjövall (swe)",
+    "authors": "Caroline Sjövall",
     "tags": [
       "Prussic acid",
       "Short scenes",
@@ -4189,7 +4168,7 @@
     "title": "Love in the Age of Debasement",
     "url": "https://scenariofestival.se/archive/scenarios-2015/love-in-the-age-of-debasement/",
     "year": 2015,
-    "authors": "Erlend Eidsem Hansen & Co-writer Geir Tore Brekke",
+    "authors": "Erlend Eidsem Hansen & Geir Tore Brekke",
     "tags": [
       "Body Language",
       "Eye Contact",
@@ -4229,7 +4208,7 @@
     "title": "Prosthetics",
     "url": "https://scenariofestival.se/archive/scenarios-2015/prosthetics/",
     "year": 2015,
-    "authors": "Kristoffer Lindh & Amelie Rother-Shirren",
+    "authors": "Kristoffer Lindh & Amelie Rother-Schirren",
     "tags": [
       "Reality",
       "Fantasy",
@@ -4269,7 +4248,7 @@
     "title": "Six Months, Three Days",
     "url": "https://scenariofestival.se/archive/scenarios-2015/six-months-three-days/",
     "year": 2015,
-    "authors": "Sara Williamson and James Stuart",
+    "authors": "Sara Williamson & James Stuart",
     "tags": [
       "Love",
       "Clairvoyance",
@@ -4302,8 +4281,7 @@
     "download": "https://www.dropbox.com/s/yvuvibc3kwjlxfb/The%20Black%20Pram.zip?dl=0",
     "image": "",
     "years": [
-      2015,
-      2021
+      2015
     ]
   },
   {
@@ -4323,6 +4301,7 @@
     "download": "https://www.dropbox.com/s/6wk3n6tyfom3h9r/The%20last%20adventure.zip?dl=0",
     "image": "",
     "years": [
+      2013,
       2015
     ]
   },
@@ -4523,6 +4502,7 @@
     "download": "https://www.dropbox.com/s/ig6889g8rp4ygeu/The%20Journey.zip?dl=0",
     "image": "",
     "years": [
+      2013,
       2014
     ]
   },
@@ -4630,7 +4610,7 @@
     "title": "Doubt",
     "url": "https://scenariofestival.se/archive/scenarios-2013/doubt/",
     "year": 2013,
-    "authors": "Tobias Wrigstad and Fredrik Åkerlind",
+    "authors": "Tobias Wrigstad & Fredrik Åkerlind",
     "tags": [
       "Fidelity",
       "Choice",
@@ -4770,7 +4750,7 @@
     "title": "Previous Occupants",
     "url": "https://scenariofestival.se/archive/scenarios-2013/previous-occupants/",
     "year": 2013,
-    "authors": "Frederik Berg and Tobias Wrigstad",
+    "authors": "Frederik Berg & Tobias Wrigstad",
     "tags": [
       "Jealousy",
       "Desire",
@@ -4810,7 +4790,7 @@
     "title": "Sarabande",
     "url": "https://scenariofestival.se/archive/scenarios-2013/sarabande/",
     "year": 2013,
-    "authors": "Jeppe Bergmann Hamming and Maria Bergmann Hamming",
+    "authors": "Jeppe Bergmann Hamming & Maria Bergmann Hamming",
     "tags": [
       "Music",
       "Art",
@@ -4850,7 +4830,7 @@
     "title": "Shards",
     "url": "https://scenariofestival.se/archive/scenarios-2013/shards/",
     "year": 2013,
-    "authors": "Gustav Nilsson and Staffan Fladvad",
+    "authors": "Gustav Nilsson & Staffan Fladvad",
     "tags": [
       "Therapy",
       "Internal Conflicts",
@@ -4870,7 +4850,7 @@
     "title": "Stereo hearts",
     "url": "https://scenariofestival.se/archive/scenarios-2013/stereo-hearts/",
     "year": 2013,
-    "authors": "Maria Ljung and Helene Willer Piironen",
+    "authors": "Maria Ljung & Helene Willer Piironen",
     "tags": [
       "Experimentation",
       "Communication",
@@ -4963,15 +4943,14 @@
     "download": "https://www.dropbox.com/s/1x7p1zopd39j9fz/The%20family.zip?dl=0",
     "image": "",
     "years": [
-      2013,
-      2021
+      2013
     ]
   },
   {
     "title": "The Kick Inside",
     "url": "https://scenariofestival.se/archive/scenarios-2013/the-kick-inside/",
     "year": 2013,
-    "authors": "Martin Rother-Schirren and Kristoffer Lindh",
+    "authors": "Martin Rother-Schirren & Kristoffer Lindh",
     "tags": [
       "Identity",
       "Choices",
@@ -5011,7 +4990,7 @@
     "title": "White Death",
     "url": "https://scenariofestival.se/archive/scenarios-2013/white-death/",
     "year": 2013,
-    "authors": "Nina Runa Essendrop and Simon Steen Hansen",
+    "authors": "Nina Runa Essendrop & Simon Steen Hansen",
     "tags": [
       "Non-verbal",
       "Abstract",

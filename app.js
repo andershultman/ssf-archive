@@ -39,27 +39,31 @@ function matchQ(s, words) {
   const hay = [s.title, s.authors, s.format, ...(s.tags || []), s.description].join(' ').toLowerCase();
   return words.every(w => hay.includes(w));
 }
+// Turn free text ("3 or 4 hours", "4-6 hours", "A number divisible by 3 (3/6/9)", "20+") into number intervals.
+function intervals(text) {
+  const t = String(text || '').replace(/(\d),(\d)/g, '$1.$2').replace(/\u00a0/g, ' ');
+  const range = t.match(/(\d+(?:\.\d+)?)\s*[-–—]\s*(\d+(?:\.\d+)?)/);
+  if (range) return [[+range[1], +range[2]]];                 // "4-12 (6-10 preferred)" -> 4..12
+  const plus = t.match(/(\d+(?:\.\d+)?)\s*\+|(\d+(?:\.\d+)?)[^\d]*(?:upwards|unlimited|or more|and up)/i);
+  if (plus) return [[+(plus[1] || plus[2]), Infinity]];                    // "20+", "4+ hours"
+  return (t.match(/\d+(?:\.\d+)?/g) || []).map(n => [+n, +n]); // "6 or 8", "4, 8, or 12", "3/6/9"
+}
+const overlaps = (list, a, b) => list.some(([lo, hi]) => hi >= a && lo < b);
+
+// Duration buckets are hour ranges, so "3 or 4 hours" and "3-4 hours" show under both 3 and 4.
+const DUR = { '1': [0, 1.5], '2': [1.5, 2.5], '3': [2.5, 3.5], '4+': [3.5, Infinity] };
 function matchDur(s, d) {
   if (!d) return true;
-  const raw = s.duration || '';
-  let n = parseFloat((raw.match(/\d+(?:[.,]\d+)?/) || [0])[0].toString().replace(',', '.'));
-  if (!n) return false;
-  if (/min/i.test(raw)) n /= 60;
-  return d === '4+' ? n >= 4 : Math.round(n) === parseInt(d, 10);
+  let list = intervals(s.duration);
+  if (/min/i.test(s.duration || '')) list = list.map(([lo, hi]) => [lo / 60, hi / 60]);
+  return list.length > 0 && overlaps(list, ...DUR[d]);
 }
+// Players: any number the scenario can be played with falls in the bucket.
+const PL = { '1': [1, 2], '2-3': [2, 4], '4-5': [4, 6], '6-10': [6, 11], '11+': [11, Infinity] };
 function matchPl(s, b) {
   if (!b) return true;
-  const nums = (s.players || '').replace(/\s/g, '').match(/\d+/g);
-  if (!nums) return false;
-  const lo = parseInt(nums[0], 10), hi = nums[1] ? parseInt(nums[1], 10) : lo;
-  switch (b) {
-    case '1':    return lo === 1 && hi === 1;
-    case '2-3':  return lo <= 3 && hi >= 2;
-    case '4-5':  return lo <= 5 && hi >= 4;
-    case '6-10': return lo <= 10 && hi >= 6;
-    case '11+':  return hi >= 11;
-    default:     return true;
-  }
+  const list = intervals(s.players);
+  return list.length > 0 && overlaps(list, ...PL[b]);
 }
 
 function state() {
